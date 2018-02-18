@@ -1,0 +1,13 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper">
+    <p>
+      {% t footer.created_with %} <i class='fa fa-heart secondary-colour'></i> {% t footer.by %} Miquel Sabaté Solà
+      (<a href="https://twitter.com/{{site.twitter_username }}">@{{ site.twitter_username }}</a>)
+      <br />
+      {% t footer.this_website %}
+      <a title="GNU Affero General Public License" href="{% tl license %}">AGPLv3</a>
+      (<a href="http://git.mssola.com/jo.git/">{% t footer.source_code %}</a>).
+    </p>
+  </div>
+</footer>

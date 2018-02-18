@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+
+<h1 class="post-title-smaller">
+  {% t page.title %}{% if page.subtitle %}.<small class="post-subtitle"> {{ page.subtitle }}</small>{% endif %}
+</h1>
+
+<p class="post-meta">
+  {% t blog.posted_on %}
+  {% if site.lang == "ca" %}
+  {% include date.html date=page.date %}
+  {{ pre }}{{ day }} de {{ month }} del {{ year }}
+  {% else %}
+  {{ post.date | date: "%B %-d, %Y" }}
+  {% endif %}
+  {% t footer.by %} {{ site.author }}
+</p>
+
+{{ content }}
+
+<div class="post-notice">
+  <p>
+    {% t blog.notice %}
+    <a href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons BY-ND 4.0</a>.
+  </p>
+  <p>
+    {% t blog.rss %}
+
+    {% if site.lang == "ca" %}
+    <a href="/feed.xml">feed de RSS</a>.
+    {% else %}
+    <a href="/feed.en.xml">RSS Feed</a>.
+    {% endif %}
+  </p>
+</div>

@@ -1,0 +1,41 @@
+
+{% assign day = include.date | date: "%-d" %}
+{% capture day %}{{ day }}{% endcapture %}
+
+{% case day %}
+{% when "1" or "11" %}
+  {% capture pre %} l'{% endcapture %}
+{% else %}
+  {% capture pre %} el {% endcapture %}
+{% endcase %}
+
+{% assign month = include.date | date: "%-m" %}
+{% case month %}
+{% when "1" %}
+  {% capture month %}Gener{% endcapture %}
+{% when "2" %}
+  {% capture month %}Febrer{% endcapture %}
+{% when "3" %}
+  {% capture month %}Març{% endcapture %}
+{% when "4" %}
+  {% capture month %}Abril{% endcapture %}
+{% when "5" %}
+  {% capture month %}Maig{% endcapture %}
+{% when "6" %}
+  {% capture month %}Juny{% endcapture %}
+{% when "7" %}
+  {% capture month %}Juliol{% endcapture %}
+{% when "8" %}
+  {% capture month %}Agost{% endcapture %}
+{% when "9" %}
+  {% capture month %}Setembre{% endcapture %}
+{% when "10" %}
+  {% capture month %}Octubre{% endcapture %}
+{% when "11" %}
+  {% capture month %}Novembre{% endcapture %}
+{% when "12" %}
+  {% capture month %}Desembre{% endcapture %}
+{% endcase %}
+
+{% assign year = include.date | date: "%Y" %}
+{% capture year %}{{ year }}{% endcapture %}

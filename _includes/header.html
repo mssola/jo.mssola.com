@@ -1,0 +1,16 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <div class="left-header header-component">
+      <a title="Home" class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </div>
+    <nav class="site-nav">
+      {% if site.lang == "ca" %}
+        <a href="/en{{ page.url }}" >{% t global.english %}</a>
+      {% elsif site.lang == "en" %}
+        <a href="{{ page.url }}" >{% t global.catalan %}</a>
+      {% endif %}
+
+      <a title="{% t titles.blog %}" href="{% tl blog %}">{% t titles.blog %}</a>
+    </nav>
+  </div>
+</header>

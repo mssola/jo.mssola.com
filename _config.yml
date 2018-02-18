@@ -1,0 +1,27 @@
+title: Miquel
+name: Miquel
+author: Miquel Sabaté Solà
+email: mikisabate@gmail.com
+twitter_username: miquelssola
+description: El meu espai personal en un oceà immens.
+
+exclude: [LICENSE, README.org, yarn.lock, Gemfile, Gemfile.lock, config, node_modules, vendor]
+
+timezone: "Europe/Berlin"
+markdown: kramdown
+highlighter: rouge
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://jo.mssola.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+sass:
+  style: compressed
+  sass_dir: ./stylesheets/partials
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["ca", "en"]
+exclude_from_localizations: ["javascript", "images", "stylesheets"]

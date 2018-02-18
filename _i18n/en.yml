@@ -1,0 +1,35 @@
+titles:
+  license: "License"
+  blog: "Blog"
+
+footer:
+  created_with: "Created with"
+  by: "by"
+  this_website: "This website is Free Software and it's licensed under the"
+  source_code: "source code"
+
+global:
+  catalan: "Català"
+  english: "English"
+
+notfound:
+  main: "Page not found"
+  sub: "The requested page could not be found"
+  maybe: "Maybe this post is only available in catalan?"
+
+blog:
+  posted_on: "Posted on"
+  read: "Read"
+  more: "more"
+  intro: >-
+    This is the page that aggregates the english blog posts. All of the opinions
+    stated here are solely my own (unless stated otherwise). Last but not least,
+    these entries are licensed under the
+  notice: >-
+    Unless otherwise stated, all of the opinions in the above post are solely my
+    own and do not represent anyone else. This post is released under the
+  rss: >-
+    You can subscribe to the
+
+posts:
+  first: "Llegint el Capital"

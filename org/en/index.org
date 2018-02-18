@@ -1,0 +1,27 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+# Local variables:
+# after-save-hook: org-publish-current-file
+# end:
+
+#+HTML: <img src="/images/me.jpeg" alt="Miquel's picture" id="image-profile" title="It's-a Me, Miquel!" width="100" height="100">
+
+* About me
+
+Hello! I'm **Miquel Sabaté Solà** (yeah, [[https://en.wikipedia.org/wiki/Spanish_naming_customs][two surnames)]] and this is my personal
+website. It's difficult to define oneself, but if I had to:
+
+- I was born in [[https://www.poetryfoundation.org/poems-and-poets/poems/detail/48860][the bleak December]] 28th, 1989.
+- Born and raised in [[https://en.wikipedia.org/wiki/Piera][Piera]], recently adopted as a [[https://en.wikipedia.org/wiki/Capellades][capelladí]].
+- The [[http://www.fib.upc.edu/en.html][FIB - Barcelona School of Informatics]] were nice enough to give me a
+  **Bachelor Degree in Computer Science**.
+- I'm currently studying **Catalan Language and Literature** at the [[http://www.uoc.edu/portal/en/index.html][Universitat
+  Oberta de Catalunya]].
+- I have an unhealthy interest in way too many areas.
+- A [[https://en.wikipedia.org/wiki/Free_software][Free Software]] enthusiast, developer and promoter.
+- I do [[https://en.wikipedia.org/wiki/Linux_containers][container thingies]] at [[https://www.suse.com/][SUSE]].
+
+* About this website
+
+This website simply contains a [[./blog][blog]], which I'll try to update whenever I feel I
+have something interesting to say.

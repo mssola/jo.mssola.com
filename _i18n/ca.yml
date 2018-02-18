@@ -1,0 +1,36 @@
+titles:
+  license: "Llicència"
+  blog: "Blog"
+
+footer:
+  created_with: "Creat amb"
+  by: "per"
+  this_website: "Aquesta pàgina és Programari Lliure i està sota la llicència"
+  source_code: "codi font"
+
+global:
+  catalan: "Català"
+  english: "English"
+
+notfound:
+  main: "No s'ha trobat la pàgina"
+  sub: "La pàgina que buscaves no s'ha pogut trobar"
+  maybe: "Potser aquesta pàgina només està disponible en anglès?"
+
+blog:
+  posted_on: "Escrit"
+  read: "Llegir"
+  more: "més"
+  intro: >-
+    Aquesta és la pàgina que mostra les entrades en català del meu blog. Totes
+    les opinions exposades aquí són únicament meves a no ser que indiqui el
+    contrari. A més, les entrades estan sota la llicència
+  notice: >-
+    A no ser que hagi indicat quelcom contrari a la meva entrada, totes les
+    opinions expressades aquí són únicament meves i no representen a ningú
+    més. Aquesta entrada està sota la llicència
+  rss: >-
+    Pots subscriure't al
+
+posts:
+  first: "Llegint el Capital"

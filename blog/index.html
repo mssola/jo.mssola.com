@@ -1,0 +1,64 @@
+---
+title: titles.blog
+layout: default
+
+namespace: blog
+permalink: /blog/
+permalink_en: /blog/
+---
+
+<div class="container">
+  <div id="blog-intro" class="row">
+    <h2>
+      {% t titles.blog %}
+
+      <small>
+        {% if site.lang == "ca" %}
+        <a href="/feed.xml">RSS feed</a>
+        {% else %}
+        <a href="/feed.en.xml">RSS Feed</a>
+        {% endif %}
+      </small>
+    </h2>
+
+    <p>
+      {% t blog.intro %}
+      <a href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons BY-ND 4.0</a>.
+    </p>
+  </div>
+
+  <div id="posts-list" class="row">
+    {% capture posts_count %}{{ site.posts | where:"lang",site.lang | size }}{% endcapture %}
+    {% if posts_count == "0" %}
+      <center>Oops, it's empty!</center>
+    {% endif %}
+
+    {% for post in site.posts %}
+    {% if site.lang == post.lang %}
+    <div class="post-preview col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+          {% t post.title %}{% if post.subtitle %}.<small class="post-subtitle"> {{ post.subtitle }}</small>{% endif %}
+        </h2>
+      </a>
+
+      <p class="post-meta">
+        {% t blog.posted_on %}
+        {% if site.lang == "ca" %}
+          {% include date.html date=post.date %}
+          {{ pre }}{{ day }} de {{ month }} del {{ year }}
+        {% else %}
+          {{ post.date | date: "%B %-d, %Y" }}
+        {% endif %}
+        {% t footer.by %} {{ site.author }}
+      </p>
+
+      <div class="post-entry">
+        {{ post.content | truncatewords: 50 | strip_html }}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[{% t blog.read %}&nbsp;{% t blog.more %}]</a>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
