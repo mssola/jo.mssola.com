@@ -32,7 +32,9 @@ task :test do
       timeframe: "6w"
     }
   }
-  HTMLProofer.check_directory("./_site", options).run
+
+  dir = ENV["BUILD_DEST"] || "./_site"
+  HTMLProofer.check_directory(dir, options).run
 end
 
 task default: [:test]
