@@ -11,7 +11,7 @@
     {% for post in site.posts %}
     {% if post.lang == "ca" %}
     <item>
-      {% capture title %}{% t post.title %}{% endcapture %}
+      {% capture title %}{{ post.title }}. {{ post.subtitle }}{% endcapture %}
       <title>{{ title | xml_escape }}</title>
       <dc:creator>{{ site.author | strip_html | xml_escape }}</dc:creator>
       <description>{{ post.content | truncatewords: 50 | xml_escape }}</description>

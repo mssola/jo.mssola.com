@@ -2,9 +2,8 @@
 layout: default
 ---
 
-
 <h1 class="post-title-smaller">
-  {% t page.title %}{% if page.subtitle %}.<small class="post-subtitle"> {{ page.subtitle }}</small>{% endif %}
+  {{ page.title }}{% if page.subtitle %}.<small class="post-subtitle"> {{ page.subtitle }}</small>{% endif %}
 </h1>
 
 <p class="post-meta">

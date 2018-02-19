@@ -14,7 +14,7 @@ permalink_en: /blog/
 
       <small>
         {% if site.lang == "ca" %}
-        <a href="/feed.xml">RSS feed</a>
+        <a href="/feed.xml">RSS Feed</a>
         {% else %}
         <a href="/feed.en.xml">RSS Feed</a>
         {% endif %}
@@ -38,7 +38,7 @@ permalink_en: /blog/
     <div class="post-preview col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
-          {% t post.title %}{% if post.subtitle %}.<small class="post-subtitle"> {{ post.subtitle }}</small>{% endif %}
+          {{ post.title }}{% if post.subtitle %}.<small class="post-subtitle"> {{ post.subtitle }}</small>{% endif %}
         </h2>
       </a>
 

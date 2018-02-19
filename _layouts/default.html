@@ -2,18 +2,36 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>{% if page.title %}{{ site.title }} - {% t page.title %}{% else %}{{ site.title }}{% endif %}</title>
+
+    {% comment %}
+    <!--
+      There are three situations:
+
+      1. We have a page title and it needs translation (it starts with "titles.blabla").
+      2. We have a page title and it has to be as it is.
+      3. We don't have a page title (e.g. the main page)
+    -->
+    {% endcomment %}
+    {% if page.title %}
+      {% if page.title contains "titles." %}
+        <title>{{ site.title }} - {% t page.title %}</title>
+      {% else %}
+        <title>{{ site.title }} - {{ page.title }}</title>
+      {% endif %}
+    {% else %}
+      <title>{{ site.title }}</title>
+    {% endif %}
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <!-- We have the same CSS file for all languages -->
+    {% comment %}<!-- We have the same CSS file for all languages -->{% endcomment %}
     <link href="{{ "/stylesheets/main.css" | prepend: site.baseurl_root }}" rel="stylesheet" type="text/css" />
 
-    <!-- Empty favicon -->
+    {% comment %}<!-- Empty favicon -->{% endcomment %}
     <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
 
-    <!-- Feeds -->
+    {% comment %}<!-- Feeds -->{% endcomment %}
     <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="Entrades al blog en català" />
     <link href="/feed.en.xml" type="application/rss+xml" rel="alternate" title="Blog posts in english" />
 </head>

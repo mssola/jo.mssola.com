@@ -1,0 +1,17 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: TITLE
+subtitle: SUBTITLE
+lang: ca
+english_available: true
+catalan_available: true
+---
+#+END_HTML
+# Local variables:
+# after-save-hook: org-publish-current-file
+# end:
+
+TEXT
