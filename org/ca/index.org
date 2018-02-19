@@ -14,9 +14,9 @@ crec que sàpiga descriure'm a mi mateix, però si ho hagués de fer:
 - Vaig néixer el 28 de Desembre del 1989.
 - He passat tota la meva vida a [[https://ca.wikipedia.org/wiki/Piera][Piera]], però després d'una curta estància a
   [[https://ca.wikipedia.org/wiki/Nuremberg][Nuremberg]] he acabat sent adoptat per la bona gent de [[https://ca.wikipedia.org/wiki/Capellades][Capellades]].
-- Sóc **Enginyer Informàtic**, o això diu un títol de la [[http://www.fib.upc.edu/en.html][FIB]].
-- Estic estudiant **Llengua i Literatura Catalanes** a la [[http://www.uoc.edu/portal/en/index.html][Universitat
-  Oberta de Catalunya]].
+- Sóc **Enginyer Informàtic**, o això diu un títol de la [[http://www.fib.upc.edu][FIB]].
+- Estic estudiant **Llengua i Literatura Catalanes** a la [[http://www.uoc.edu/portal/ca/index.html][Universitat Oberta de
+  Catalunya]].
 - M'interessa una quantitat malaltissa de temes diferents.
 - Sóc un entusiasta, desenvolupador i promotor de [[https://ca.wikipedia.org/wiki/Programari_lliure][Programari Lliure]].
 - Treballo a [[https://www.suse.com/][SUSE]] des de casa fent [[https://en.wikipedia.org/wiki/Linux_containers][coses amb contenidors de Linux]].
