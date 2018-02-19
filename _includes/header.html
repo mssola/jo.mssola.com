@@ -5,9 +5,17 @@
     </div>
     <nav class="site-nav">
       {% if site.lang == "ca" %}
-        <a href="/en{{ page.url }}" >{% t global.english %}</a>
+        {% if page.layout == "post" and page.english_available == false %}
+          <span class="no-lang" title="{% t blog.no_english_post %}">{% t global.english %}</span>
+        {% else %}
+          <a href="/en{{ page.url }}" >{% t global.english %}</a>
+        {% endif %}
       {% elsif site.lang == "en" %}
-        <a href="{{ page.url }}" >{% t global.catalan %}</a>
+        {% if page.layout == "post" and page.catalan_available == false %}
+          <span class="no-lang" title="{% t blog.no_catalan_post %}">{% t global.catalan %}</span>
+        {% else %}
+          <a href="{{ page.url }}" >{% t global.catalan %}</a>
+        {% endif %}
       {% endif %}
 
       <a title="{% t titles.blog %}" href="{% tl blog %}">{% t titles.blog %}</a>

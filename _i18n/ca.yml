@@ -21,6 +21,8 @@ blog:
   posted_on: "Escrit"
   read: "Llegir"
   more: "més"
+  no_english_post: "Aquesta entrada no està disponible en anglès"
+  no_catalan_post: "Aquesta entrada no està disponible en català"
   intro: >-
     Aquesta és la pàgina que mostra les entrades en català del meu blog. Totes
     les opinions exposades aquí són únicament meves a no ser que indiqui el

@@ -6,6 +6,7 @@ layout: post
 title: posts.first
 subtitle: Una mirada o quelcom similar
 lang: ca
+english_available: false
 ---
 #+END_HTML
 # Local variables:

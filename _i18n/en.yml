@@ -21,6 +21,8 @@ blog:
   posted_on: "Posted on"
   read: "Read"
   more: "more"
+  no_english_post: "This entry is not available in english"
+  no_catalan_post: "This entry is not available in catalan"
   intro: >-
     This is the page that aggregates the english blog posts. All of the opinions
     stated here are solely my own (unless stated otherwise). Last but not least,

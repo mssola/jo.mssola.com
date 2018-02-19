@@ -15,14 +15,24 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-source "https://rubygems.org"
+abort("Please run this using `bundle exec rake`") unless ENV["BUNDLE_BIN_PATH"]
+require "html-proofer"
 
-gem "html-proofer"
-gem "jekyll", "~> 3.7.2"
-gem "rake"
-gem "rubocop"
-gem "sass"
-
-group :jekyll_plugins do
-  gem "jekyll-multiple-languages-plugin"
+desc "Test the website"
+task :test do
+  options = {
+    check_sri:       true,
+    check_html:      true,
+    check_img_http:  true,
+    check_opengraph: true,
+    typhoeus:        {
+      timeout: 120
+    },
+    cache:           {
+      timeframe: "6w"
+    }
+  }
+  HTMLProofer.check_directory("./_site", options).run
 end
+
+task default: [:test]
