@@ -23,6 +23,7 @@ blog:
   more: "more"
   no_english_post: "This entry is not available in english"
   no_catalan_post: "Aquesta entrada no està disponible en català"
+  empty: "Oops, it's empty!"
   intro: >-
     This is the page that aggregates the english blog posts. All of the opinions
     stated here are solely my own (unless stated otherwise). Last but not least,

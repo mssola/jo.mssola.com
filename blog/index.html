@@ -30,7 +30,7 @@ permalink_en: /blog/
   <div id="posts-list" class="row">
     {% capture posts_count %}{{ site.posts | where:"lang",site.lang | size }}{% endcapture %}
     {% if posts_count == "0" %}
-      <center>Oops, it's empty!</center>
+      <center>{% t blog.empty %}</center>
     {% endif %}
 
     {% for post in site.posts %}

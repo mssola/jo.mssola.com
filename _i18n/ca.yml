@@ -23,6 +23,7 @@ blog:
   more: "més"
   no_english_post: "This entry is not available in english"
   no_catalan_post: "Aquesta entrada no està disponible en català"
+  empty: "Oops, no hi ha res!"
   intro: >-
     Aquesta és la pàgina que mostra les entrades en català del meu blog. Totes
     les opinions exposades aquí són únicament meves a no ser que indiqui el
