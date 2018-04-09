@@ -28,6 +28,7 @@ pushd $DIR
 rm -rf $BUILD_DEST
 
 # Build && test.
+bundle
 bundle exec jekyll build -s $BUILD_SOURCE -d $BUILD_DEST
 bundle exec rubocop
 bundle exec rake
