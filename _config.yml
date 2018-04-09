@@ -1,4 +1,4 @@
-title: Miquel
+title: Miquel Sabaté
 name: Miquel
 author: Miquel Sabaté Solà
 email: mikisabate@gmail.com
@@ -22,6 +22,7 @@ sass:
 
 plugins:
   - jekyll-multiple-languages-plugin
+  - jemoji
 
 languages: ["ca", "en"]
 exclude_from_localizations: ["javascript", "images", "stylesheets"]

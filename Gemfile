@@ -19,6 +19,7 @@ source "https://rubygems.org"
 
 gem "html-proofer"
 gem "jekyll", "~> 3.7.2"
+gem "jemoji"
 gem "rake"
 gem "rubocop"
 gem "sass"
