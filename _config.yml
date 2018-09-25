@@ -5,7 +5,8 @@ email: mikisabate@gmail.com
 twitter_username: miquelssola
 description: El meu espai personal en un oceà immens.
 
-exclude: [LICENSE, README.org, yarn.lock, Gemfile, Gemfile.lock, config, node_modules, vendor, templates]
+exclude: [LICENSE, README.org, yarn.lock, Gemfile, Gemfile.lock, config,
+node_modules, vendor, templates, yarn-error.log, package.json, javascripts/main.js]
 
 timezone: "Europe/Berlin"
 markdown: kramdown

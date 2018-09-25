@@ -2,3 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 tmp
+node_modules/**/*
+javascripts/dist
+yarn-error.log

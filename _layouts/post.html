@@ -6,16 +6,7 @@ layout: default
   {{ page.title }}{% if page.subtitle %}.<small class="post-subtitle"> {{ page.subtitle }}</small>{% endif %}
 </h1>
 
-<p class="post-meta">
-  {% t blog.posted_on %}
-  {% if site.lang == "ca" %}
-  {% include date.html date=page.date %}
-  {{ pre }}{{ day }} de {{ month }} del {{ year }}
-  {% else %}
-  {{ post.date | date: "%B %-d, %Y" }}
-  {% endif %}
-  {% t footer.by %} {{ site.author }}
-</p>
+{% include postmeta.html urltobeused="/" date=page.date tags=page.tags %}
 
 {{ content }}
 

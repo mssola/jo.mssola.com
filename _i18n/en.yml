@@ -1,6 +1,10 @@
 titles:
-  license: "License"
+  about: "About me"
   blog: "Blog"
+  blogu: "blog"
+  license: "License"
+  writings: "Writings"
+  writingsu: "writings"
 
 footer:
   created_with: "Created with"
@@ -17,7 +21,21 @@ notfound:
   sub: "The requested page could not be found"
   maybe: "Maybe this post is only available in catalan?"
 
+index:
+  intro: >-
+    Welcome to my little slice of the internet. Here you can read some of my
+  after: >-
+    and also posts from my
+  final: >-
+    Here below you will find everything mixed in.
+
+writings:
+  intro: >-
+    From time to time I pull my head from the sky and write a couple of
+    lines. Hope this is of your amusement...
+
 blog:
+  footnotes: "Footnotes"
   posted_on: "Posted on"
   read: "Read"
   more: "more"
@@ -30,6 +48,8 @@ blog:
     these entries are licensed under the
   notice: >-
     Unless otherwise stated, all of the opinions in the above post are solely my
-    own and do not represent anyone else. This post is released under the
+    own and do not represent anyone else.
   rss: >-
     You can subscribe to the
+  tags: "Tags"
+  empty_search: "There are no entries for the tag you are looking for!"

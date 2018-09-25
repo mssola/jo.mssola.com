@@ -1,0 +1,18 @@
+<div class="post-meta">
+  <div class="autor">
+    {% t blog.posted_on %}
+
+    {% if site.lang == "ca" %}
+      {% include date.html date=include.date %}
+      {{ pre }}{{ day }} de {{ month }} del {{ year }}
+    {% else %}
+      {{ post.date | date: "%B %-d, %Y" }}
+    {% endif %}
+
+    {% t footer.by %} {{ site.author }}.
+    <span>{% t blog.tags %}: </span>
+  </div>
+  <div class="separator"></div>
+
+  {% include listtags.html tags=include.tags urltobeused=include.urltobeused %}
+</div>

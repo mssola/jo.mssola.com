@@ -1,6 +1,10 @@
 titles:
-  license: "Llicència"
+  about: "Sobre mi"
   blog: "Blog"
+  blogu: "blog"
+  license: "Llicència"
+  writings: "Escrits"
+  writingsu: "escrits"
 
 footer:
   created_with: "Creat amb"
@@ -17,7 +21,21 @@ notfound:
   sub: "La pàgina que buscaves no s'ha pogut trobar"
   maybe: "Potser aquesta pàgina només està disponible en anglès?"
 
+index:
+  intro: >-
+    Benvinguts al meu petit racó d'internet. Aquí podeu llegir alguns dels meus
+  after: >-
+    i també entrades al meu
+  final: >-
+    Aquí més avall ho teniu tot barrejadet.
+
+writings:
+  intro: >-
+    A vegades m'agafen rampells i vomito una part de mi. Aquí us presento
+    algunes de les meves ombres.
+
 blog:
+  footnotes: "Peus de pàgina"
   posted_on: "Escrit"
   read: "Llegir"
   more: "més"
@@ -27,10 +45,12 @@ blog:
   intro: >-
     Aquesta és la pàgina que mostra les entrades en català del meu blog. Totes
     les opinions exposades aquí són únicament meves a no ser que indiqui el
-    contrari. A més, les entrades estan sota la llicència
+    contrari.
   notice: >-
     A no ser que hagi indicat quelcom contrari a la meva entrada, totes les
     opinions expressades aquí són únicament meves i no representen a ningú
     més. Aquesta entrada està sota la llicència
   rss: >-
     Pots subscriure't al
+  tags: "Etiquetes"
+  empty_search: "No hi ha cap entrada per l'etiqueta que estàs buscant!"

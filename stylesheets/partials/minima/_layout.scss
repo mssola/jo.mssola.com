@@ -38,6 +38,7 @@
 
   a {
       margin-left: 20px;
+      color: $text-color;
   }
 
   .page-link {
@@ -194,6 +195,10 @@
   @include relative-font-size(1.75);
 }
 
+#tag-search-message, #oh-its-empty {
+  display: none;
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
@@ -206,6 +211,12 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  display: flex;
+  margin-bottom: 30px;
+
+  .separator {
+      width: 5px;
+  }
 }
 
 .post-link {
@@ -319,11 +330,32 @@ img#image-profile {
     font-size: 12px;
 }
 
+#footnotes {
+    margin-top: 50px;
+
+    p.footpara {
+        display: inline;
+    }
+
+    .footdef {
+        font: $base-font-weight 14px/#{$base-line-height} $base-font-family;
+        margin: 10px 0;
+    }
+}
+
 /*
  * Code blocks
  */
 .org-src-container pre {
     border-left: 2px solid #69c;
+    font-size: 12px !important;
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+    font-family: monospace,monospace;
+    color: #566b78;
+}
+
+code {
     font-size: 12px !important;
     background: #f5f7f9;
     border-bottom: 1px solid #d8dee9;

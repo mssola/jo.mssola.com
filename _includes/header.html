@@ -1,3 +1,7 @@
+{% if site.tags != "" %}
+  {% include tags.html %}
+{% endif %}
+
 <header class="site-header" role="banner">
   <div class="wrapper">
     <div class="left-header header-component">
@@ -18,7 +22,9 @@
         {% endif %}
       {% endif %}
 
+      <a title="{% t titles.writings %}" href="{% tl writings %}">{% t titles.writings %}</a>
       <a title="{% t titles.blog %}" href="{% tl blog %}">{% t titles.blog %}</a>
+      <a title="{% t titles.about %}" href="{% tl about %}">{% t titles.about %}</a>
     </nav>
   </div>
 </header>

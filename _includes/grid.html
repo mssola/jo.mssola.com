@@ -1,0 +1,75 @@
+<div class="container">
+  <div id="blog-intro" class="row">
+    {% if include.hasfeed %}
+    <h2>
+      {% t titles.blog %}
+
+      <small>
+        {% if site.lang == "ca" %}
+        <a href="/feed.xml">RSS Feed</a>
+        {% else %}
+        <a href="/feed.en.xml">RSS Feed</a>
+        {% endif %}
+      </small>
+    </h2>
+    {% endif %}
+
+    <p>
+      {% if include.index %}
+        {% t index.intro %}
+        <a href="{% tl writings %}" title="{% t titles.writings %}">{% t titles.writingsu %}</a>
+        {% t index.after %}
+        <a href="{% tl blog %}" title="{% t titles.blog %}">{% t titles.blogu %}</a>.
+        {% t index.final %}
+      {% elsif include.writings %}
+        {% t writings.intro %}
+      {% else %}
+        {% t blog.intro %}
+      {% endif %}
+    </p>
+
+    <p id="tag-search-message">
+      Filtering by the tag:
+      <code id="tag-searched"></code>.
+      Click <a href="{{ page.url | prepend: site.baseurl }}">here</a> to cancel.
+    </p>
+  </div>
+
+  <center id="oh-its-empty">
+    {% t blog.empty_search %}
+  </center>
+
+  <div id="posts-list" class="row">
+    {% if page.url == "/" %}
+      {% assign posts = site.posts | where:"lang",site.lang %}
+    {% elsif page.url == "/blog/" %}
+      {% assign posts = site.posts | where:"lang",site.lang | where:"blogpost",true %}
+    {% else %}
+      {% assign posts = site.posts | where:"lang",site.lang | where:"blogpost",false %}
+    {% endif %}
+
+    {% capture posts_count %}{{ posts | size }}{% endcapture %}
+    {% if posts_count == "0" %}
+      <center>{% t blog.empty %}</center>
+    {% endif %}
+
+    {% for post in posts %}
+    {% if site.lang == post.lang %}
+    <div class="post-preview col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+          {{ post.title }}{% if post.subtitle %}.<small class="post-subtitle"> {{ post.subtitle }}</small>{% endif %}
+        </h2>
+      </a>
+
+      {% include postmeta.html date=post.date tags=post.tags %}
+
+      <div class="post-entry">
+        {{ post.content | truncatewords: 50 | strip_html }}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[{% t blog.read %}&nbsp;{% t blog.more %}]</a>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

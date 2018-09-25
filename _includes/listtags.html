@@ -1,0 +1,21 @@
+<div id="taglist">
+{% for tag in include.tags %}
+  {% capture tag_name %}{{ tag }}{% endcapture %}
+
+  {% if include.urltobeused == "" %}
+  {% assign url = page.url %}
+  {% else %}
+  {% assign url = "/" %}
+  {% endif %}
+
+  {% if site.lang == "ca" %}
+    {% capture tag_url %}{{ url }}?tag={{ tag_name }}{% endcapture %}
+  {% else %}
+    {% capture tag_url %}en/{{ url }}?tag={{ tag_name }}{% endcapture %}
+  {% endif %}
+
+  <a href="{{ tag_url }}">
+    <code><nobr class="tag">{{ tag_name }}</nobr></code>
+  </a>
+{% endfor %}
+</div>

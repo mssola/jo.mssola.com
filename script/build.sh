@@ -27,10 +27,21 @@ pushd $DIR
 # Clean up previous build.
 rm -rf $BUILD_DEST
 
+# JS dependencies.
+yarn
+yarn run webpack-single-shot
+
 # Build && test.
 bundle
 bundle exec jekyll build -s $BUILD_SOURCE -d $BUILD_DEST
+mkdir $BUILD_DEST/about $BUILD_DEST/en/about
+
+# Hack to fix some issues with the about page...
+cp $BUILD_DEST/about.html $BUILD_DEST/about/index.html
+cp $BUILD_DEST/en/about.html $BUILD_DEST/en/about/index.html
+
 bundle exec rubocop
 bundle exec rake
 
+set +x
 echo "Jekyll has built your application in '$BUILD_DEST'"

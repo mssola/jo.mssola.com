@@ -1,8 +1,0 @@
-* jo
-
-Files for my personal site. It uses jekyll, so you just need to execute:
-
-#+BEGIN_SRC sh
-$ bundle
-$ bundle exec jekyll serve
-#+END_SRC
