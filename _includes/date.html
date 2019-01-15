@@ -12,29 +12,29 @@
 {% assign month = include.date | date: "%-m" %}
 {% case month %}
 {% when "1" %}
-  {% capture month %}Gener{% endcapture %}
+  {% capture month %}gener{% endcapture %}
 {% when "2" %}
-  {% capture month %}Febrer{% endcapture %}
+  {% capture month %}febrer{% endcapture %}
 {% when "3" %}
-  {% capture month %}Març{% endcapture %}
+  {% capture month %}març{% endcapture %}
 {% when "4" %}
-  {% capture month %}Abril{% endcapture %}
+  {% capture month %}abril{% endcapture %}
 {% when "5" %}
-  {% capture month %}Maig{% endcapture %}
+  {% capture month %}maig{% endcapture %}
 {% when "6" %}
-  {% capture month %}Juny{% endcapture %}
+  {% capture month %}juny{% endcapture %}
 {% when "7" %}
-  {% capture month %}Juliol{% endcapture %}
+  {% capture month %}juliol{% endcapture %}
 {% when "8" %}
-  {% capture month %}Agost{% endcapture %}
+  {% capture month %}agost{% endcapture %}
 {% when "9" %}
-  {% capture month %}Setembre{% endcapture %}
+  {% capture month %}setembre{% endcapture %}
 {% when "10" %}
-  {% capture month %}Octubre{% endcapture %}
+  {% capture month %}octubre{% endcapture %}
 {% when "11" %}
-  {% capture month %}Novembre{% endcapture %}
+  {% capture month %}novembre{% endcapture %}
 {% when "12" %}
-  {% capture month %}Desembre{% endcapture %}
+  {% capture month %}desembre{% endcapture %}
 {% endcase %}
 
 {% assign year = include.date | date: "%Y" %}

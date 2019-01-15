@@ -29,9 +29,9 @@
     </p>
 
     <p id="tag-search-message">
-      Filtering by the tag:
+      {% t tags.filtering_by %}:
       <code id="tag-searched"></code>.
-      Click <a href="{{ page.url | prepend: site.baseurl }}">here</a> to cancel.
+      {% t tags.click %} <a href="{{ page.url | prepend: site.baseurl }}">{% t tags.here %}</a> {% t tags.to_cancel %}.
     </p>
   </div>
 

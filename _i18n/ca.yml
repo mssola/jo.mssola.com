@@ -18,7 +18,7 @@ global:
 
 notfound:
   main: "No s'ha trobat la pàgina"
-  sub: "La pàgina que buscaves no s'ha pogut trobar"
+  sub: "La pàgina que cercàveu no s'ha pogut trobar"
   maybe: "Potser aquesta pàgina només està disponible en anglès?"
 
 index:
@@ -41,7 +41,7 @@ blog:
   more: "més"
   no_english_post: "This entry is not available in english"
   no_catalan_post: "Aquesta entrada no està disponible en català"
-  empty: "Oops, no hi ha res!"
+  empty: "Ostres, no hi ha res!"
   intro: >-
     Aquesta és la pàgina que mostra les entrades en català del meu blog. Totes
     les opinions exposades aquí són únicament meves a no ser que indiqui el
@@ -51,6 +51,12 @@ blog:
     opinions expressades aquí són únicament meves i no representen a ningú
     més. Aquesta entrada està sota la llicència
   rss: >-
-    Pots subscriure't al
+    Us podeu subscriure al meu
   tags: "Etiquetes"
   empty_search: "No hi ha cap entrada per l'etiqueta que estàs buscant!"
+
+tags:
+  filtering_by: "Filtrant per l'etiqueta"
+  click: "Feu clic"
+  here: "aquí"
+  to_cancel: "per desfer l'acció"

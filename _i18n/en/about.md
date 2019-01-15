@@ -25,8 +25,7 @@ personal website. It's difficult to define oneself, but if I had to:
 <p>
 You can drop me an email at
 <a href="mailto:mikisabate@gmail.com" title="Send email">
-    <code>mikisabate@gmail.com</code>
-</a>.
+    <code>mikisabate@gmail.com</code></a>.
 Otherwise, you can also reach me at <a href="https://twitter.com/miquelssola"
 title="@miquelssola">Twitter</a>.
 </p>

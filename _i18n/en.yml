@@ -50,6 +50,12 @@ blog:
     Unless otherwise stated, all of the opinions in the above post are solely my
     own and do not represent anyone else.
   rss: >-
-    You can subscribe to the
+    You can subscribe to my
   tags: "Tags"
   empty_search: "There are no entries for the tag you are looking for!"
+
+tags:
+  filtering_by: "Filtering by the tag"
+  click: "Click"
+  here: "here"
+  to_cancel: "to cancel"

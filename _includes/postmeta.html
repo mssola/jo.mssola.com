@@ -6,11 +6,15 @@
       {% include date.html date=include.date %}
       {{ pre }}{{ day }} de {{ month }} del {{ year }}
     {% else %}
-      {{ post.date | date: "%B %-d, %Y" }}
+      {{ include.date | date: "%B %-d, %Y" }}
     {% endif %}
 
     {% t footer.by %} {{ site.author }}.
+
+    {% capture tags_count %}{{ include.tags | size }}{% endcapture %}
+    {% if tags_count != "0" %}
     <span>{% t blog.tags %}: </span>
+    {% endif %}
   </div>
   <div class="separator"></div>
 
