@@ -19,7 +19,7 @@ crec que sàpiga descriure'm a mi mateix, però si ho hagués de fer:
 - Treballo a [SUSE](https://www.suse.com/) des de casa fent [coses amb
   contenidors de Linux](https://en.wikipedia.org/wiki/Linux_containers).
 
-## On em pots trobar?
+## On em podeu trobar?
 
 <p>
 Em podeu enviar un correu a
