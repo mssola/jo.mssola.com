@@ -11,6 +11,7 @@ node_modules, vendor, templates, yarn-error.log, package.json, javascripts/main.
 timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
+encoding: UTF-8
 
 
 baseurl: "" # the subpath of your site, e.g. /blog

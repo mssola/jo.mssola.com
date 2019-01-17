@@ -22,7 +22,7 @@ NAME=jo
 GIT_REPO=$HOME/$NAME.git
 TARGET_BRANCH=master
 
-# Exported so it's picked by the `script/build.sh` script.
+# Exported so it's picked by the `script/docker-build.sh` script.
 export BUILD_SOURCE=$HOME/tmp/$NAME
 export BUILD_DEST=/srv/$NAME/www
 
@@ -30,14 +30,14 @@ while read oldrev newrev refname
 do
     branch=$(git rev-parse --symbolic --abbrev-ref $refname)
     if [ -n "$branch" ] && [ "$TARGET_BRANCH" == "$branch" ]; then
+      set -x
+
       # Re-generate git repository in a temporary directory.
-      rm -Rf $TMP_GIT_CLONE
+      rm -Rf $BUILD_SOURCE
       git clone $GIT_REPO $BUILD_SOURCE
 
       # Build site
-      chmod +x $BUILD_SOURCE/script/build.sh
-      BUNDLE_GEMFILE=$BUILD_SOURCE/Gemfile bundle install
-      BUNDLE_GEMFILE=$BUILD_SOURCE/Gemfile $BUILD_SOURCE/script/build.sh
-      rm -Rf $BUILD_SOURCE
+      chmod +x $BUILD_SOURCE/script/docker-build.sh
+      POST_RECEIVE=true NUKE=true $BUILD_SOURCE/script/docker-build.sh
     fi
 done

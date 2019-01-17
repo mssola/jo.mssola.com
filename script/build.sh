@@ -14,25 +14,35 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+# You may want to set the following environment variables for this script:
+#
+# - BUILD_SOURCE: the directory where the source code is located.
+# - BUILD_DEST: the directory where the built files should go.
+# - USER: the user who should own the files.
+# - GROUP: the group who should own the files.
+
 set -ex
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 pushd $DIR
+
+# Set UTF-8 for the build (Jekyll needs this).
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US:en
+export LC_ALL=en_US.UTF-8
 
 # The build source and destination directories. This is done this way so we
 # can re-use this script when deploying.
 : ${BUILD_SOURCE:=.}
 : ${BUILD_DEST:=./_site}
 
-# Clean up previous build.
-rm -rf $BUILD_DEST
-
 # JS dependencies.
-yarn
+yarn --force
 yarn run webpack-single-shot
 
 # Build && test.
 bundle
+rm -rf $BUILD_DEST/*
 bundle exec jekyll build -s $BUILD_SOURCE -d $BUILD_DEST
 mkdir $BUILD_DEST/about $BUILD_DEST/en/about
 
@@ -42,6 +52,21 @@ cp $BUILD_DEST/en/about.html $BUILD_DEST/en/about/index.html
 
 bundle exec rubocop
 bundle exec rake
+
+# Fix ownership of files if a given user was provided.
+if [ ! -z "$USER" ]; then
+    chown -R $USER:$GROUP $BUILD_DEST
+fi
+
+# Nuke the source if specified (useful when the source was a temporary one).
+if [ "$NUKE" = "true" ]; then
+    pushd $BUILD_SOURCE
+    # See: https://unix.stackexchange.com/a/77313. We cannot remove the
+    # directory directly, because then Docker might scream "Device busy", since
+    # it's a shared volume.
+    rm -Rf ..?* .[!.]* *
+    popd
+fi
 
 set +x
 echo "Jekyll has built your application in '$BUILD_DEST'"
