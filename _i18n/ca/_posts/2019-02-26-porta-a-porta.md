@@ -40,7 +40,7 @@ amunt —i aquell ric ventall de grisos que s'ho miraven de reüll.
 Sigui com sigui, sincerament no crec que ningú tingués ni punyetera idea de com
 aniria tot plegat. La primera setmana la recordo d'una manera molt excepcional:
 gent que no havia reciclat mai que anava amb l'ai al cor, gent que va esperar
-fins a l'últim dia per amuntegar brossa allà on abans hi havien els anyorats
+fins a l'últim dia per amuntegar brossa allà on abans hi havien els enyorats
 contenidors, gent que no sabia ben bé què significava cada cubell, etc. Això
 també s'agreujava amb les aportacions de gent que vivia a les urbanitzacions de
 la Torre de Claramunt, en què la brossa no es recull tots els dies. Durant la
@@ -62,7 +62,7 @@ gats que havia d'envair la vila per culpa dels cubells de l'orgànica.
 Tal i com pronosticava el sentit comú, al final la gent es va anar acostumant, i
 les diferents fraccions s'anaven recollint amb tota la nova normalitat. Els
 índexs de reciclatge, evidentment, van millorar amb escreix: Capellades va passar
-a tenir un percentatge de residus reclicats del 83%.
+a tenir un percentatge de residus reciclats del 83%.
 
 Com veieu, estic sent bastant optimista, i és que en general estic molt satisfet
 del porta a porta. Ara bé, sé que hi haurà molta gent que em tiraria els plats
