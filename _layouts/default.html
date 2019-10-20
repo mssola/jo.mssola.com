@@ -32,9 +32,11 @@
     <meta name="description" content="{{ description }}">
 
     {% comment %}<!-- Twitter stuff -->{% endcomment %}
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@miquelssola" />
     <meta name="twitter:creator" content="@miquelssola" />
+    <meta name="twitter:description" content="{{ description }}" />
+    <meta name="twitter:title" content="{{ title }}" />
 
     {% comment %}<!-- OpenGraph protocol -->{% endcomment %}
     {% if site.lang == "ca" %}

@@ -24,7 +24,8 @@ module Jekyll
     def render(context)
       img  = normalize(context["raw_title"]) + ".png"
       path = image_exists?(img) ? "/images/posts/#{img}" : DEFAULT_PATH
-      render_meta("og:image", "http://jo.mssola.com#{path}")
+      render_meta("og:image", "http://jo.mssola.com#{path}") +
+        render_meta("twitter:image", "http://jo.mssola.com#{path}", name: true)
     end
 
     protected
@@ -42,9 +43,15 @@ module Jekyll
       str.gsub(/\s/, "-").downcase
     end
 
-    # Render an HTML meta tag with the given property and content attributes.
-    def render_meta(property, content)
-      "<meta property=\"#{property}\" content=\"#{content}\" />"
+    # Render an HTML meta tag with the given property and content
+    # attributes. You may optionally pass a `name` argument. When true, it will
+    # use "name" instead of "property". Defaults to nil.
+    def render_meta(property, content, name: nil)
+      if name
+        "<meta name=\"#{property}\" content=\"#{content}\" />"
+      else
+        "<meta property=\"#{property}\" content=\"#{content}\" />"
+      end
     end
   end
 end
