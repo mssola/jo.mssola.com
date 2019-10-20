@@ -27,16 +27,9 @@
 
     <title>{{ title }}</title>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     {% capture description %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
-    <meta name="description" content="{{ description }}">
-
-    {% comment %}<!-- Twitter stuff -->{% endcomment %}
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@miquelssola" />
-    <meta name="twitter:creator" content="@miquelssola" />
-    <meta name="twitter:description" content="{{ description }}" />
-    <meta name="twitter:title" content="{{ title }}" />
+    <meta name="description" content="{{ description }}" />
 
     {% comment %}<!-- OpenGraph protocol -->{% endcomment %}
     {% if site.lang == "ca" %}
@@ -51,6 +44,13 @@
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:type" content="website" />
+
+    {% comment %}<!-- Twitter stuff -->{% endcomment %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@miquelssola" />
+    <meta name="twitter:creator" content="@miquelssola" />
+    <meta name="twitter:description" content="{{ description }}" />
+    <meta name="twitter:title" content="{{ title }}" />
     {% render_og_image %}
 
     {% comment %}<!-- We have the same CSS file for all languages -->{% endcomment %}

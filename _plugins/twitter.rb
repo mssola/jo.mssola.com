@@ -25,6 +25,8 @@ module Jekyll
       img  = normalize(context["raw_title"]) + ".png"
       path = image_exists?(img) ? "/images/posts/#{img}" : DEFAULT_PATH
       render_meta("og:image", "http://jo.mssola.com#{path}") +
+        render_meta("og:image:width", 630) +
+        render_meta("og:image:height", 315) +
         render_meta("twitter:image", "http://jo.mssola.com#{path}", name: true)
     end
 
