@@ -14,16 +14,42 @@
     {% endcomment %}
     {% if page.title %}
       {% if page.title contains "titles." %}
-        <title>{{ site.title }} - {% t page.title %}</title>
+        {% capture title %}{{ site.title }} - {% t page.title %}{% endcapture %}
+        {% capture raw_title %}{% t page.title %}{% endcapture %}
       {% else %}
-        <title>{{ site.title }} - {{ page.title }}</title>
+        {% capture title %}{{ site.title }} - {{ page.title }}{% endcapture %}
+        {% capture raw_title %}{{ page.title }}{% endcapture %}
       {% endif %}
     {% else %}
-      <title>{{ site.title }}</title>
+      {% capture title %}{{ site.title }}{% endcapture %}
+      {% capture raw_title %}{% endcapture %}
     {% endif %}
 
+    <title>{{ title }}</title>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% capture description %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+    <meta name="description" content="{{ description }}">
+
+    {% comment %}<!-- Twitter stuff -->{% endcomment %}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@miquelssola" />
+    <meta name="twitter:creator" content="@miquelssola" />
+
+    {% comment %}<!-- OpenGraph protocol -->{% endcomment %}
+    {% if site.lang == "ca" %}
+    <meta property="og:locale" content="ca_ES" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:url" content="http://jo.mssola.com{{ page.url }}" />
+    {% else %}
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ca_ES" />
+    <meta property="og:url" content="http://jo.mssola.com/en{{ page.url }}" />
+    {% endif %}
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:type" content="website" />
+    {% render_og_image %}
 
     {% comment %}<!-- We have the same CSS file for all languages -->{% endcomment %}
     <link href="{{ "/stylesheets/main.css" | prepend: site.baseurl_root }}" rel="stylesheet" type="text/css" />
