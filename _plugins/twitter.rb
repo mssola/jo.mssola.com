@@ -15,9 +15,13 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+require_relative "render_helper"
+
 module Jekyll
   # Render the OG image meta HTML tag for the currently rendered page.
   class RenderOGImageTag < Liquid::Tag
+    include ::Jekyll::RenderHelper
+
     # The path to be used when the current page does not have a specific image.
     DEFAULT_PATH = "/images/default.png"
 
@@ -43,17 +47,6 @@ module Jekyll
     # Downcases the given string and replaces space characters with "-"
     def normalize(str)
       str.gsub(/\s/, "-").downcase
-    end
-
-    # Render an HTML meta tag with the given property and content
-    # attributes. You may optionally pass a `name` argument. When true, it will
-    # use "name" instead of "property". Defaults to nil.
-    def render_meta(property, content, name: nil)
-      if name
-        "<meta name=\"#{property}\" content=\"#{content}\" />"
-      else
-        "<meta property=\"#{property}\" content=\"#{content}\" />"
-      end
     end
   end
 end

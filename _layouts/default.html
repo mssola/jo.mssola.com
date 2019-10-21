@@ -43,7 +43,8 @@
     {% endif %}
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:description" content="{{ description }}" />
-    <meta property="og:type" content="website" />
+
+    {% render_type_tags %}
 
     {% comment %}<!-- Twitter stuff -->{% endcomment %}
     <meta name="twitter:card" content="summary_large_image" />
