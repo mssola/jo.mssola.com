@@ -21,7 +21,7 @@ RUN useradd --no-create-home --shell /dev/null --system nobody && \
     zypper ar -f -G obs://devel:/languages:/nodejs/openSUSE_Leap_15.0/ devel:languages:nodejs && \
     zypper ref && \
     zypper -n in -t pattern devel_basis && \
-    zypper -n in nodejs10 npm10 ruby2.5-devel ruby2.5-rubygem-bundler libxslt-devel gcc-c++ glibc-locale && \
+    zypper -n in nodejs10 npm10 ruby2.5-devel ruby2.5-rubygem-bundler libxslt-devel gcc-c++ glibc-locale git-core && \
     zypper -n in --from home:mssola yarn && \
     npm install -g webpack webpack-cli && \
     zypper clean -a

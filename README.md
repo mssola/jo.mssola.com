@@ -1,9 +1,9 @@
 # jo
 
 Files for my personal website. In order to get started, you need to install
-[yarn](https://yarnpkg.com/) and you need a proper ruby development environment
-(with bundler already installed). Then, you can simply fetch dependencies like
-so:
+[yarn](https://yarnpkg.com/), [git](https://git-scm.com/) (yeah, it's actually a
+dependency) and you need a proper ruby development environment (with bundler
+already installed). Then, you can simply fetch dependencies like so:
 
 ```
 $ yarn
