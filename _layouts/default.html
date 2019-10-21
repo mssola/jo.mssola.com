@@ -59,12 +59,11 @@
     {% comment %}<!-- We have the same JS file for all languages -->{% endcomment %}
     <script src="{{ "/javascripts/dist/main.min.js" | prepend: site.baseurl_root }}"></script>
 
-    {% comment %}<!-- Empty favicon -->{% endcomment %}
-    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
-
     {% comment %}<!-- Feeds -->{% endcomment %}
     <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="Entrades al blog en català" />
     <link href="/feed.en.xml" type="application/rss+xml" rel="alternate" title="Blog posts in english" />
+
+    {% include favicon.html %}
 </head>
 <body>
   {% include header.html %}
