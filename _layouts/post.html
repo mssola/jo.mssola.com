@@ -11,6 +11,7 @@ layout: default
 {{ content }}
 
 <div class="post-notice">
+  <p>{% t blog.modified_at %}: {% render_modified_at %}. {% t blog.you_can_check %} {% render_log_link %}.</p>
   <p>
     {% t blog.notice %}
     <a href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons BY-ND 4.0</a>.

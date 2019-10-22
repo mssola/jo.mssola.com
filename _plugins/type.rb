@@ -17,11 +17,13 @@
 
 require "time"
 require_relative "render_helper"
+require_relative "modified_time_helper"
 
 module Jekyll
   # Render og:type related tags.
   class RenderTypeTags < Liquid::Tag
     include ::Jekyll::RenderHelper
+    include ::Jekyll::ModifiedTimeHelper
 
     def render(context)
       if ["posts"].include?(context["page"]["collection"])
@@ -54,20 +56,6 @@ module Jekyll
       # We could do fancy stuff like using DateTime.strptime and so on, but
       # Jekyll completely disregards the hour, minutes, etc., so why bother.
       page["date"].to_s.split.first
-    end
-
-    # Returns the modified time of the given page.
-    def modified_time(page)
-      path = File.expand_path(File.join(File.dirname(__FILE__), "..", page["path"]))
-      out  = `git log -n 1 --pretty='format:%cd' --date=iso8601-strict -- #{path}`
-
-      begin
-        Time.iso8601(out)
-        out
-      rescue ArgumentError => e
-        puts "[WARNING] Could not parse the given modified time from Git: #{e}"
-        nil
-      end
     end
   end
 end

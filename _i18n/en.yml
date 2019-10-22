@@ -46,6 +46,8 @@ blog:
     This is the page that aggregates the english blog posts. All of the opinions
     stated here are solely my own (unless stated otherwise). Last but not least,
     these entries are licensed under the
+  modified_at: "Modified date"
+  you_can_check: "You can check the log of this entry"
   notice: >-
     Unless otherwise stated, all of the opinions in the above post are solely my
     own and do not represent anyone else.

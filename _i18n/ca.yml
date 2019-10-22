@@ -46,6 +46,8 @@ blog:
     Aquesta és la pàgina que mostra les entrades en català del meu blog. Totes
     les opinions exposades aquí són únicament meves a no ser que indiqui el
     contrari.
+  modified_at: "Última data de modificació"
+  you_can_check: "Pots consultar l'historial d'aquesta entrada"
   notice: >-
     A no ser que hagi indicat quelcom contrari a la meva entrada, totes les
     opinions expressades aquí són únicament meves i no representen a ningú
