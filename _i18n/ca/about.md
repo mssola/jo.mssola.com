@@ -13,7 +13,7 @@ crec que sàpiga descriure'm a mi mateix, però si ho hagués de fer:
 - Soc **Enginyer Informàtic**, o això diu un títol de la [FIB](http://www.fib.upc.edu).
 - Estic estudiant **Llengua i Literatura Catalanes** a la [Universitat Oberta de
   Catalunya](http://www.uoc.edu/portal/ca/index.html).
-- M'interessa una quantitat malaltissa de temes diferents.
+- Milito a **Vila de Capellades - CUP**, i actualment exerceixo de **regidor** de Joventut, Participació ciutadana i Transparència a l'Ajuntament de Capellades.
 - Soc un entusiasta, desenvolupador i promotor de [Programari
   Lliure](https://ca.wikipedia.org/wiki/Programari_lliure).
 - Treballo a [SUSE](https://www.suse.com/) des de casa fent [coses amb

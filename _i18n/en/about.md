@@ -15,7 +15,7 @@ personal website. It's difficult to define oneself, but if I had to:
   were nice enough to give me a **Bachelor Degree in Computer Science**.
 - I'm currently studying **Catalan Language and Literature** at the [Universitat
   Oberta de Catalunya](http://www.uoc.edu/portal/en/index.html).
-- I have an unhealthy interest in way too many areas.
+- I am a member of **Vila de Capellades - CUP**, and I currently also work as a **councilor** of the Capellades town hall.
 - A [Free Software](https://en.wikipedia.org/wiki/Free_software) enthusiast, developer and promoter.
 - I do [container thingies](https://en.wikipedia.org/wiki/Linux_containers) at
   [SUSE](https://www.suse.com).
