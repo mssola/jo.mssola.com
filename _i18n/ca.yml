@@ -33,6 +33,13 @@ writings:
   intro: >-
     A vegades m'agafen rampells i vomito una part de mi. Aquí us presento
     algunes de les meves ombres.
+  summaries: "Resums crítics"
+  summaries_intro: "Resums crítics que he fet d'obres que he llegit."
+  summaries_republic: "La República (Plató)"
+  summaries_republic_cloud_title: "Enllaç al document del meu Nextcloud"
+  summaries_republic_cloud_text: "enllaç al resum"
+  summaries_republic_twitter_title: "Enllaç a un resum de Twitter"
+  summaries_republic_twitter_text: "enllaç a fil de Twitter amb algunes explicacions"
 
 blog:
   footnotes: "Peus de pàgina"

@@ -33,6 +33,13 @@ writings:
   intro: >-
     From time to time I pull my head from the sky and write a couple of
     lines. Hope this is of your amusement...
+  summaries: "Reviews"
+  summaries_intro: "Reviews that I've done about books that I've read."
+  summaries_republic: "Republic (Plato)"
+  summaries_republic_cloud_title: "Link to the document from my Nextcloud (catalan)"
+  summaries_republic_cloud_text: "link to the review (catalan)"
+  summaries_republic_twitter_title: "Link to my Twitter thread about this review (catalan)"
+  summaries_republic_twitter_text: "Link to my Twitter thread about this review (catalan)"
 
 blog:
   footnotes: "Footnotes"
