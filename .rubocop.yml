@@ -13,9 +13,14 @@ AllCops:
 
 # This is a remnant of old SUSE-style alignment for hashes, The table format
 # looks more human readable.
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
+
+# The default is just too small. A limit of 100 looks reasonable and many other
+# projects (including inside of SUSE) are also using this value.
+Layout/LineLength:
+  Max: 100
 
 #
 # Metrics
@@ -24,11 +29,6 @@ Layout/AlignHash:
 # The default is just too small.
 Metrics/AbcSize:
   Max: 30
-
-# The default is just too small. A limit of 100 looks reasonable and many other
-# projects (including inside of SUSE) are also using this value.
-Metrics/LineLength:
-  Max: 100
 
 Metrics/MethodLength:
   Max: 20
@@ -53,3 +53,14 @@ Style/StringLiteralsInInterpolation:
 
 Style/AsciiComments:
   Enabled: false
+
+## New stuff
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
