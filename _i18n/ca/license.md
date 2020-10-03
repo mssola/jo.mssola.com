@@ -6,7 +6,7 @@ sentit. El codi font es pot trobar [aquí](http://git.mssola.com/jo.git/).
 ## Llicència
 
 <div class="org-src-container">
-<pre class="src src-txt">
+  <pre class="src src-txt">
 Copyright (C) 2018-2020 Miquel Sabaté Solà &lt;mikisabate@gmail.com&gt;
 
 This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@ GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
-</pre>
+  </pre>
 </div>
 
 ## Creative Commons

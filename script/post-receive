@@ -20,7 +20,7 @@
 
 NAME=jo
 GIT_REPO=$HOME/$NAME.git
-TARGET_BRANCH=master
+TARGET_BRANCH=main
 
 # Exported so it's picked by the `script/docker-build.sh` script.
 export BUILD_SOURCE=$HOME/tmp/$NAME
@@ -34,7 +34,7 @@ do
 
       # Re-generate git repository in a temporary directory.
       rm -Rf $BUILD_SOURCE
-      git clone $GIT_REPO $BUILD_SOURCE
+      git clone --branch $TARGET_BRANCH $GIT_REPO $BUILD_SOURCE
 
       # Build site
       chmod +x $BUILD_SOURCE/script/docker-build.sh
