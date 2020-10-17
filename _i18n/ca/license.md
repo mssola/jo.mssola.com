@@ -3,7 +3,7 @@
 Aquesta és la meva pàgina personal, on escric coses que tenen més o menys
 sentit. El codi font es pot trobar [aquí](http://git.mssola.com/jo.git/).
 
-## Llicència
+## Llicència ([AGPLv3](http://git.mssola.com/jo.git/tree/LICENSE))
 
 <div class="org-src-container">
   <pre class="src src-txt">

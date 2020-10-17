@@ -3,7 +3,7 @@
 This is my personal webpage, where I write stuff. The source code can be found
 [here](http://git.mssola.com/jo.git/).
 
-## License
+## License ([AGPLv3](http://git.mssola.com/jo.git/tree/LICENSE))
 
 <div class="org-src-container">
 <pre class="src src-txt">
