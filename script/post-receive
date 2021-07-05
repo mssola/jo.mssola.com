@@ -38,6 +38,7 @@ do
 
       # Build site
       chmod +x $BUILD_SOURCE/script/docker-build.sh
+      cd $BUILD_SOURCE
       POST_RECEIVE=true NUKE=true $BUILD_SOURCE/script/docker-build.sh
     fi
 done
