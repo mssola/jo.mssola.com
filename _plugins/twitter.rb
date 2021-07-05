@@ -26,7 +26,7 @@ module Jekyll
     DEFAULT_PATH = "/images/default.png"
 
     def render(context)
-      img  = normalize(context["raw_title"]) + ".png"
+      img  = "#{normalize(context["raw_title"])}.png"
       path = image_exists?(img) ? "/images/posts/#{img}" : DEFAULT_PATH
       render_meta("og:image", "http://jo.mssola.com#{path}") +
         render_meta("og:image:width", 630) +

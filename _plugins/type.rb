@@ -39,6 +39,7 @@ module Jekyll
     def render_article_tags(page)
       tags = page["tags"].inject("") { |acc, t| acc + render_meta("article:tag", t) }
 
+      # rubocop:disable Style/StringConcatenation
       '<meta property="og:type" content="article" />' +
         render_meta("og:author", "Miquel Sabaté Solà") +
         render_meta("profile:first_name", "Miquel") +
@@ -49,6 +50,7 @@ module Jekyll
         render_meta("article:published_time", published_time(page)) +
         render_meta("article:modified_time", modified_time(page)) +
         tags
+      # rubocop:enable Style/StringConcatenation
     end
 
     # Returns the published time of the given page.
