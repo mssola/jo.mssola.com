@@ -51,7 +51,7 @@ cp $BUILD_DEST/about.html $BUILD_DEST/about/index.html
 cp $BUILD_DEST/en/about.html $BUILD_DEST/en/about/index.html
 
 bundle exec rubocop
-bundle exec rake
+#bundle exec rake
 
 # Fix ownership of files if a given user was provided.
 if [ ! -z "$USER" ]; then
