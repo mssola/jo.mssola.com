@@ -18,12 +18,13 @@
 source "https://rubygems.org"
 
 gem "html-proofer"
-gem "jekyll", "~> 3.9.0"
+gem "jekyll", "~> 4.2.0"
 gem "jemoji"
 gem "kramdown-parser-gfm"
 gem "rake"
 gem "rubocop"
 gem "sass"
+gem "webrick"
 
 group :jekyll_plugins do
   gem "jekyll-multiple-languages-plugin"

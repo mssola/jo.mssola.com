@@ -13,15 +13,17 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-FROM opensuse/leap:15.1
+FROM opensuse/leap:15.3
 MAINTAINER Miquel Sabaté Solà <mikisabate@gmail.com>
 
 RUN useradd --no-create-home --shell /dev/null --system nobody && \
-    zypper ar -f -G obs://home:/mssola/openSUSE_Leap_15.2/ home:mssola && \
-    zypper ar -f -G obs://devel:/languages:/nodejs/openSUSE_Leap_15.2/ devel:languages:nodejs && \
+    zypper ar -f -G obs://home:/mssola/openSUSE_Leap_15.3/ home:mssola && \
+    zypper ar -f -G obs://devel:/languages:/ruby/openSUSE_Leap_15.3/ devel:languages:ruby && \
+    zypper ar -f -G obs://devel:/languages:/nodejs/openSUSE_Leap_15.3/ devel:languages:nodejs && \
     zypper ref && \
     zypper -n in -t pattern devel_basis && \
-    zypper -n in nodejs10 npm10 ruby2.5-devel ruby2.5-rubygem-bundler libxslt-devel gcc-c++ glibc-locale git-core && \
+    zypper -n in nodejs10 npm10 ruby3.0-devel libxslt-devel gcc-c++ glibc-locale git-core && \
     zypper -n in --from home:mssola yarn && \
+    gem install bundler && \
     npm install -g webpack webpack-cli && \
     zypper clean -a
