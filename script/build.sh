@@ -44,7 +44,7 @@ yarn run webpack-single-shot
 bundle
 rm -rf $BUILD_DEST/*
 bundle exec jekyll build -s $BUILD_SOURCE -d $BUILD_DEST
-mkdir $BUILD_DEST/about $BUILD_DEST/en/about
+mkdir -p $BUILD_DEST/about $BUILD_DEST/en/about
 
 # Hack to fix some issues with the about page...
 cp $BUILD_DEST/about.html $BUILD_DEST/about/index.html
