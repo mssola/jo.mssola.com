@@ -1,5 +1,6 @@
 titles:
   about: "About me"
+  cv: "CV"
   blog: "Blog"
   blogu: "blog"
   license: "License"
@@ -68,3 +69,6 @@ tags:
   click: "Click"
   here: "here"
   to_cancel: "to cancel"
+
+about:
+  downloadpdf: "Download in PDF format"

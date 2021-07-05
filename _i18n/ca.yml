@@ -1,5 +1,6 @@
 titles:
   about: "Sobre mi"
+  cv: "CV"
   blog: "Blog"
   blogu: "blog"
   license: "Llicència"
@@ -69,3 +70,6 @@ tags:
   click: "Feu clic"
   here: "aquí"
   to_cancel: "per desfer l'acció"
+
+about:
+  downloadpdf: "Descarrega en format PDF"

@@ -20,6 +20,8 @@ personal website. It's difficult to define oneself, but if I had to:
 - I do [container thingies](https://en.wikipedia.org/wiki/Linux_containers) at
   [SUSE](https://www.suse.com).
 
+You can also get this information in CV style [here](/en/about/cv.html).
+
 ## Where can I found you?
 
 <p>

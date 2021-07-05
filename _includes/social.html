@@ -1,0 +1,22 @@
+{% comment %}<!-- OpenGraph protocol -->{% endcomment %}
+{% if site.lang == "ca" %}
+<meta property="og:locale" content="ca_ES" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:url" content="http://jo.mssola.com{{ page.url }}" />
+{% else %}
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="ca_ES" />
+<meta property="og:url" content="http://jo.mssola.com/en{{ page.url }}" />
+{% endif %}
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:description" content="{{ description }}" />
+
+{% render_type_tags %}
+
+{% comment %}<!-- Twitter stuff -->{% endcomment %}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@miquelssola" />
+<meta name="twitter:creator" content="@miquelssola" />
+<meta name="twitter:description" content="{{ description }}" />
+<meta name="twitter:title" content="{{ title }}" />
+{% render_og_image %}

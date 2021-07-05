@@ -19,6 +19,8 @@ crec que sàpiga descriure'm a mi mateix, però si ho hagués de fer:
 - Treballo a [SUSE](https://www.suse.com/) des de casa fent [coses amb
   contenidors de Linux](https://en.wikipedia.org/wiki/Linux_containers).
 
+Si voleu la mateixa informació en format CV, podeu accedir-hi [aquí](/about/cv.html).
+
 ## On em podeu trobar?
 
 <p>

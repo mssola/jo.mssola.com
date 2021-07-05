@@ -1,0 +1,23 @@
+{% comment %}
+<!--
+  There are three situations:
+
+  1. We have a page title and it needs translation (it starts with "titles.blabla").
+  2. We have a page title and it has to be as it is.
+  3. We don't have a page title (e.g. the main page)
+-->
+{% endcomment %}
+{% if page.title %}
+  {% if page.title contains "titles." %}
+    {% capture title %}{{ site.title }} - {% t page.title %}{% endcapture %}
+    {% capture raw_title %}{% t page.title %}{% endcapture %}
+  {% else %}
+    {% capture title %}{{ site.title }} - {{ page.title }}{% endcapture %}
+    {% capture raw_title %}{{ page.title }}{% endcapture %}
+  {% endif %}
+{% else %}
+  {% capture title %}{{ site.title }}{% endcapture %}
+  {% capture raw_title %}{% endcapture %}
+{% endif %}
+
+<title>{{ title }}</title>
