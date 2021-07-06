@@ -25,6 +25,7 @@ task :test do
     check_html:      true,
     check_img_http:  true,
     check_opengraph: true,
+    url_ignore:      [/uoc.edu/],
     typhoeus:        {
       timeout: 120
     },
