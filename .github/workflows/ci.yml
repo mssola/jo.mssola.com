@@ -44,7 +44,8 @@ jobs:
         run: |
           bundle config set path 'vendor/bundle'
           bundle install --jobs 4 --retry 3
-          yarn
+          yarn --force
+          yarn run webpack-single-shot
 
       - name: "Build site"
         run: bundle exec jekyll build
