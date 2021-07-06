@@ -20,7 +20,7 @@ module Jekyll
   module ModifiedTimeHelper
     # Returns the modified time of the given page.
     def modified_time(page)
-      path = File.expand_path(File.join(File.dirname(__FILE__), "..", page["path"]))
+      path = File.expand_path(File.join(File.dirname(__FILE__), '..', page['path']))
       out  = `git log -n 1 --pretty='format:%cd' --date=iso8601-strict -- #{path}`
 
       begin

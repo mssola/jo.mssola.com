@@ -1,9 +1,9 @@
 ## Sobre això
 
 Aquesta és la meva pàgina personal, on escric coses que tenen més o menys
-sentit. El codi font es pot trobar [aquí](http://git.mssola.com/jo.git/).
+sentit. El codi font es pot trobar [aquí](https://github.com/mssola/jo.mssola.com).
 
-## Llicència ([AGPLv3](http://git.mssola.com/jo.git/tree/LICENSE))
+## Llicència ([AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html))
 
 <div class="org-src-container">
   <pre class="src src-txt">

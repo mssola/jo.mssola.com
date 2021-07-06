@@ -15,9 +15,9 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-require "time"
-require_relative "render_helper"
-require_relative "modified_time_helper"
+require 'time'
+require_relative 'render_helper'
+require_relative 'modified_time_helper'
 
 module Jekyll
   # Render og:type related tags.
@@ -26,8 +26,8 @@ module Jekyll
     include ::Jekyll::ModifiedTimeHelper
 
     def render(context)
-      if ["posts"].include?(context["page"]["collection"])
-        render_article_tags(context["page"])
+      if ['posts'].include?(context['page']['collection'])
+        render_article_tags(context['page'])
       else
         '<meta property="og:type" content="website" />'
       end
@@ -37,18 +37,18 @@ module Jekyll
 
     # Render all the tags related to the article og:type.
     def render_article_tags(page)
-      tags = page["tags"].inject("") { |acc, t| acc + render_meta("article:tag", t) }
+      tags = page['tags'].inject('') { |acc, t| acc + render_meta('article:tag', t) }
 
       # rubocop:disable Style/StringConcatenation
       '<meta property="og:type" content="article" />' +
-        render_meta("og:author", "Miquel Sabaté Solà") +
-        render_meta("profile:first_name", "Miquel") +
-        render_meta("profile:last_name", "Sabaté Solà") +
-        render_meta("profile:username", "mssola") +
-        render_meta("profile:gender", "male") +
-        render_meta("article:section", page["collection"]) +
-        render_meta("article:published_time", published_time(page)) +
-        render_meta("article:modified_time", modified_time(page)) +
+        render_meta('og:author', 'Miquel Sabaté Solà') +
+        render_meta('profile:first_name', 'Miquel') +
+        render_meta('profile:last_name', 'Sabaté Solà') +
+        render_meta('profile:username', 'mssola') +
+        render_meta('profile:gender', 'male') +
+        render_meta('article:section', page['collection']) +
+        render_meta('article:published_time', published_time(page)) +
+        render_meta('article:modified_time', modified_time(page)) +
         tags
       # rubocop:enable Style/StringConcatenation
     end
@@ -57,9 +57,9 @@ module Jekyll
     def published_time(page)
       # We could do fancy stuff like using DateTime.strptime and so on, but
       # Jekyll completely disregards the hour, minutes, etc., so why bother.
-      page["date"].to_s.split.first
+      page['date'].to_s.split.first
     end
   end
 end
 
-Liquid::Template.register_tag("render_type_tags", Jekyll::RenderTypeTags)
+Liquid::Template.register_tag('render_type_tags', Jekyll::RenderTypeTags)

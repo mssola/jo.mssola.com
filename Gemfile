@@ -15,17 +15,19 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "html-proofer"
-gem "jekyll", "~> 4.2.0"
-gem "jemoji"
-gem "kramdown-parser-gfm"
-gem "rake"
-gem "rubocop"
-gem "sass"
-gem "webrick"
+gem 'html-proofer'
+gem 'jekyll', '~> 4.2.0'
+gem 'jemoji'
+gem 'kramdown-parser-gfm'
+gem 'rake'
+gem 'rubocop'
+gem 'rubocop-performance', require: false
+gem 'rubocop-rake', require: false
+gem 'sass'
+gem 'webrick'
 
 group :jekyll_plugins do
-  gem "jekyll-multiple-languages-plugin"
+  gem 'jekyll-multiple-languages-plugin'
 end

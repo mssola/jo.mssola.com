@@ -15,10 +15,10 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-abort("Please run this using `bundle exec rake`") unless ENV["BUNDLE_BIN_PATH"]
-require "html-proofer"
+abort('Please run this using `bundle exec rake`') unless ENV['BUNDLE_BIN_PATH']
+require 'html-proofer'
 
-desc "Test the website"
+desc 'Test the website'
 task :test do
   options = {
     check_sri:       true,
@@ -29,11 +29,11 @@ task :test do
       timeout: 120
     },
     cache:           {
-      timeframe: "6w"
+      timeframe: '6w'
     }
   }
 
-  dir = ENV["BUILD_DEST"] || "./_site"
+  dir = ENV['BUILD_DEST'] || './_site'
   HTMLProofer.check_directory(dir, options).run
 end
 

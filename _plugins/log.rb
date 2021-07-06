@@ -15,8 +15,8 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-require "date"
-require_relative "modified_time_helper"
+require 'date'
+require_relative 'modified_time_helper'
 
 module Jekyll
   # Render the last modification time of the given page.
@@ -24,10 +24,10 @@ module Jekyll
     include ::Jekyll::ModifiedTimeHelper
 
     def render(context)
-      time = Time.iso8601(modified_time(context["page"]))
+      time = Time.iso8601(modified_time(context['page']))
 
-      if context["page"]["lang"] == "en"
-        time.strftime("%B %-d, %Y, at %H:%m")
+      if context['page']['lang'] == 'en'
+        time.strftime('%B %-d, %Y, at %H:%m')
       else
         time.strftime("%-d de #{catalan_month(time.month)} de %Y, a les %H:%m")
       end
@@ -40,31 +40,31 @@ module Jekyll
     def catalan_month(month)
       case month
       when 1
-        "gener"
+        'gener'
       when 2
-        "febrer"
+        'febrer'
       when 3
-        "març"
+        'març'
       when 4
-        "abril"
+        'abril'
       when 5
-        "maig"
+        'maig'
       when 6
-        "juny"
+        'juny'
       when 7
-        "juliol"
+        'juliol'
       when 8
-        "agost"
+        'agost'
       when 9
-        "setembre"
+        'setembre'
       when 10
-        "octubre"
+        'octubre'
       when 11
-        "novembre"
+        'novembre'
       when 12
-        "desembre"
+        'desembre'
       else
-        ""
+        ''
       end
     end
     # rubocop:enable Metrics/MethodLength, Metrics/CyclomaticComplexity
@@ -74,14 +74,15 @@ module Jekyll
   class RenderLogLink < Liquid::Tag
     include ::Jekyll::ModifiedTimeHelper
 
-    WEBSITE_BASE = "http://git.mssola.com"
-    WEBSITE_REPO = "jo.git"
+    WEBSITE_BASE   = 'https://github.com'
+    WEBSITE_REPO   = 'mssola/jo.mssola.com'
+    WEBSITE_BRANCH = 'main'
 
     def render(context)
-      page = context["page"]
-      url  = "#{WEBSITE_BASE}/#{WEBSITE_REPO}/log/#{page["relative_path"]}"
+      page = context['page']
+      url  = "#{WEBSITE_BASE}/#{WEBSITE_REPO}/commits/#{WEBSITE_BRANCH}/#{page['relative_path']}"
 
-      if page["lang"] == "en"
+      if page['lang'] == 'en'
         "<a href=\"#{url}\" title=\"Log for this page\">here</a>"
       else
         "<a href=\"#{url}\" title=\"Historial d'aquesta pàgina (anglès)\">aquí</a>"
@@ -90,5 +91,5 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag("render_modified_at", Jekyll::RenderModifiedAt)
-Liquid::Template.register_tag("render_log_link", Jekyll::RenderLogLink)
+Liquid::Template.register_tag('render_modified_at', Jekyll::RenderModifiedAt)
+Liquid::Template.register_tag('render_log_link', Jekyll::RenderLogLink)

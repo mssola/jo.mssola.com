@@ -1,9 +1,9 @@
 ## About this
 
 This is my personal webpage, where I write stuff. The source code can be found
-[here](http://git.mssola.com/jo.git/).
+[here](https://github.com/mssola/jo.mssola.com).
 
-## License ([AGPLv3](http://git.mssola.com/jo.git/tree/LICENSE))
+## License ([AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html))
 
 <div class="org-src-container">
 <pre class="src src-txt">
