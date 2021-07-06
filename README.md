@@ -5,9 +5,5 @@
 
 ---
 
-My personal website.
-
-## License
-
-This project is licensed under the AGPLv3. See [LICENSE](./LICENSE) for the full
-license text.
+My personal website. This project is licensed under the AGPLv3. See
+[LICENSE](./LICENSE) for the full license text.

@@ -83,4 +83,4 @@ jobs:
             tar xzvf site.tar.gz
             rm -rf ${{ secrets.DEST }}/*
             cp -r _site/* ${{ secrets.DEST }}/
-            rm -r _site
+            rm -r _site site.tar.gz
