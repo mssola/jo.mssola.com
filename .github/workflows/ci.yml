@@ -50,8 +50,10 @@ jobs:
       - name: "Build site"
         run: bundle exec jekyll build
 
-      - name: "Run rubocop"
-        run: bundle exec rubocop
+      - name: "Run style checks"
+        run: |
+          bundle exec rubocop
+          yarn run eslint
 
       - name: "Run tests"
         run: bundle exec rake
