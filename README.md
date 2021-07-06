@@ -1,35 +1,11 @@
-# jo
+<p align="center">
+  <a href="https://github.com/mssola/jo.mssola.com/actions?query=workflow%3ACI" title="CI status for the main branch"><img src="https://github.com/mssola/jo.mssola.com/workflows/CI/badge.svg" alt="Build Status for main branch" /></a>
+  <a href="http://www.gnu.org/licenses/agpl-3.0.txt" rel="nofollow"><img alt="License GPL 3" src="https://img.shields.io/badge/license-AGPL_3-blue.svg" style="max-width:100%;"></a>
+</p>
 
-Files for my personal website. In order to get started, you need to install
-[yarn](https://yarnpkg.com/), [git](https://git-scm.com/) (yeah, it's actually a
-dependency) and you need a proper ruby development environment (with bundler
-already installed). Then, you can simply fetch dependencies like so:
+---
 
-```
-$ yarn
-$ bundle
-```
-
-After that, build Javascript files with:
-
-```
-$ yarn run webpack
-```
-
-And in another session start Jekyll with:
-
-```
-$ bundle exec jekyll serve
-```
-
-If you just want to **deploy**, simply run:
-
-```
-$ ./script/build.sh
-```
-
-This will write everything into a `_site` directory. Use this directory to serve
-all files.
+My personal website.
 
 ## License
 
