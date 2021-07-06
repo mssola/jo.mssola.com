@@ -66,5 +66,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.KEY }}
+          password: ${{ secrets.PASSWORD }}
           source: "site.tar.gz"
           target: "test"
