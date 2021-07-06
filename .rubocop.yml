@@ -1,7 +1,3 @@
-require:
-  - rubocop-performance
-  - rubocop-rake
-
 AllCops:
   TargetRubyVersion: 3.0
 
@@ -12,6 +8,11 @@ AllCops:
 
   Exclude:
     - './_site/**/*'
+    - vendor/**/*
+
+require:
+  - rubocop-performance
+  - rubocop-rake
 
 Layout/HashAlignment:
   EnforcedHashRocketStyle: table
@@ -22,10 +23,6 @@ Metrics/AbcSize:
 
 Metrics/MethodLength:
   Max: 20
-
-# This forces us to create a new object for no real reason.
-Style/MultipleComparison:
-  Enabled: false
 
 # It's actually quite cool to spell my own name correctly...
 Style/AsciiComments:

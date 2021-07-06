@@ -55,7 +55,7 @@ jobs:
       - name: "Run tests"
         run: bundle exec rake
 
-      - name: "Produce tarball"
+      - name: "Create tarball"
         run: tar czvf site.tar.gz _site
 
       - name: "Upload tarball"
