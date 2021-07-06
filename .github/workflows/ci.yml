@@ -68,4 +68,19 @@ jobs:
           key: ${{ secrets.KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           source: "site.tar.gz"
-          target: "test"
+          target: "tmp"
+
+      - name: "Update file system"
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.PORT }}
+          key: ${{ secrets.KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          script: |
+            cd tmp
+            tar xzvf site.tar.gz
+            rm -rf ${{ secrets.DEST }}/*
+            cp -r _site/* ${{ secrets.DEST }}/
+            rm -r _site
