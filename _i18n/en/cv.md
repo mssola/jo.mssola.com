@@ -20,7 +20,6 @@
 `September 2016 - January 2022`
 **Bachelor's Degree in Catalan Language and Literature**
 <br/>
-`(expected)`
 *Universitat Oberta de Catalunya ([UOC](https://www.uoc.edu/portal/en/index.html))*
 
 `September 2008 - June 2014`
@@ -86,7 +85,7 @@ All in all, I am a staunch supporter of free software and I strongly believe tha
 ### Languages
 
 - **Catalan**: Native proficiency.
-- **Spanish**: Native proficiency.
+- **Spanish**: Written and spoken proficiently.
 - **English**: Written and spoken proficiently.
 
 ### Miscellaneous

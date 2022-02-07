@@ -20,7 +20,6 @@
 `Setembre 2016 - Gener 2022`
 **Grau en Llengua i Literatura Catalanes**
 <br/>
-`(esperat)`
 *Universitat Oberta de Catalunya ([UOC](https://www.uoc.edu/portal/ca/index.html))*
 
 `Setembre 2008 - Juny 2014`
