@@ -34,7 +34,7 @@ task :test do
     }
   }
 
-  dir = ENV['BUILD_DEST'] || './_site'
+  dir = ENV.fetch('BUILD_DEST', './_site')
   HTMLProofer.check_directory(dir, options).run
 end
 
