@@ -75,7 +75,7 @@ All in all, I am a staunch supporter of free software and I strongly believe tha
 
 ## Technical skills
 
-- **Languages**: advanced knowledge of Ruby, Go, C and Javascript, with also a high degree of confidence in Python, C++, Perl, Java, PHP and Bash.
+- **Languages**: advanced knowledge of Ruby, Go, C and Javascript, with also a high degree of confidence in Python, C++, Rust, Perl, Java, PHP and Bash.
 - **Applications and frameworks**: advanced knowledge of Ruby on Rails, Vue.js, jQuery, PostgreSQL and Redis, among other technologies, thus being confident in the full stack of a web application. I also have experience deploying web applications in container environments, with a strong focus on Kubernetes.
 - **Administration**: overall understanding in UNIX/Linux System administration.
 - **Methodologies**: familiar with the [SCRUM](https://www.scrum.org/) methodology, being also experienced with it in remote environments. Experienced also in the [Kanban](https://en.wikipedia.org/wiki/Kanban) methodology.

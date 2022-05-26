@@ -2,22 +2,23 @@
 
 ## Qui soc?
 
-Hola! Em dic **Miquel Sabaté Solà** i aquesta és la meva pàgina personal. No
-crec que sàpiga descriure'm a mi mateix, però si ho hagués de fer:
+Hola! Em dic **Miquel Sabaté Solà** i aquesta és la meva pàgina personal.
+Resumidament:
 
 - Vaig néixer el 28 de Desembre del 1989.
-- He passat tota la meva vida a [Piera](https://ca.wikipedia.org/wiki/Piera),
-  però després d'una curta estància a
-  [Nuremberg](https://ca.wikipedia.org/wiki/Nuremberg) he acabat sent adoptat
+- He nascut i crescut a [Piera](https://ca.wikipedia.org/wiki/Piera) però
+  després d'una curta estància a
+  [Nuremberg](https://ca.wikipedia.org/wiki/Nuremberg) vaig acabar sent adoptat
   per la bona gent de [Capellades](https://ca.wikipedia.org/wiki/Capellades).
 - Soc **Enginyer Informàtic**, o això diu un títol de la [FIB](http://www.fib.upc.edu).
-- Estic estudiant **Llengua i Literatura Catalanes** a la [Universitat Oberta de
+- També tinc un grau en **Llengua i Literatura Catalanes** per la [Universitat Oberta de
   Catalunya](http://www.uoc.edu/portal/ca/index.html).
-- Milito a **Vila de Capellades - CUP**, i actualment exerceixo de **regidor** de Joventut, Participació ciutadana i Transparència a l'Ajuntament de Capellades.
+- Milito a **Vila de Capellades - CUP**, i actualment exerceixo de **regidor**
+  de Joventut, Participació ciutadana i Transparència a l'Ajuntament de
+  Capellades.
 - Soc un entusiasta, desenvolupador i promotor de [Programari
   Lliure](https://ca.wikipedia.org/wiki/Programari_lliure).
-- Treballo a [SUSE](https://www.suse.com/) des de casa fent [coses amb
-  contenidors de Linux](https://en.wikipedia.org/wiki/Linux_containers).
+- Treballo a [SUSE](https://www.suse.com/) des de casa.
 
 Si voleu la mateixa informació en format CV, podeu accedir-hi [aquí](/about/cv.html).
 

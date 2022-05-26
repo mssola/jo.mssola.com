@@ -63,7 +63,7 @@ Durant l'estiu de 2012 vaig ser estudiant del programa Google Summer of Code. Du
 
 ### Mentor
 
-He fet de mentor en el programa [Google Summer of Code](https://summerofcode.withgoogle.com/) dues vegades: una el 2014 amb el projecte [KDE](https://kde.org/), i una altra amb [openSUSE](https://www.opensuse.org/).
+He fet de mentor en el programa [Google Summer of Code](https://summerofcode.withgoogle.com/) dues vegades: una el 2014 amb el projecte [KDE](https://kde.org/), i una altra el 2016 amb [openSUSE](https://www.opensuse.org/).
 
 ### Programari Lliure
 
@@ -73,7 +73,7 @@ També he contribuït en altres projectes com [Docker](https://www.docker.com/),
 
 ## Habilitats tècniques
 
-- **Llenguatges de programació**: coneixements avançats de Ruby, Go, C i Javascript, amb un grau elevat de confiança en Python, C++, Perl, Java, PHP i Bash.
+- **Llenguatges de programació**: coneixements avançats de Ruby, Go, C i Javascript, amb un grau elevat de confiança en Python, C++, Rust, Perl, Java, PHP i Bash.
 - **Aplicacions i entorns de treball**: coneixements avançats de Ruby on Rails, Vue.js, jQuery, PostgreSQL i Redis, entre d'altres tecnologies, i, per tant, tinc coneixements sòlids de desenvolupament web full-stack. També tinc experiència desplegant aplicacions en entorns de contenidors, especialment amb Kubernetes.
 - **Administració**: coneixements avançats d'eines d'administració de UNIX/Linux.
 - **Metodologies**: familiaritzat en [SCRUM](https://www.scrum.org/), amb experiència en la seva aplicació en equips treballant en remot. Familiaritzat també amb la metodologia [Kanban](https://en.wikipedia.org/wiki/Kanban).
