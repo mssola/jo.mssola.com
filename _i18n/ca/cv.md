@@ -11,6 +11,11 @@
 
 ## Educació
 
+`Octubre 2022 - Juny 2023 (esperat)`
+**Màster en Recerca Avançada en Estudis Humanístics**<br/>**Especialitat en Estudis Lingüístics i Literaris**
+<br/>
+*Universitat Rovira i Virgili ([URV](https://www.urv.cat/ca/))*
+
 `Octubre 2020 - Maig 2021`
 **Curs d'extensió universitària:**<br/>**«Els discursos sobre la promoció del català: perspectives i argumentaris»**
 <br/>

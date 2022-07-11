@@ -11,6 +11,11 @@
 
 ## Education
 
+`October 2022 - June 2023 (expected)`
+**Master's Degree in Advanced Research in Humanistic Studies**<br/>**Speciality in Linguistic and Literary Studies**
+<br/>
+*Universitat Rovira i Virgili ([URV](https://www.urv.cat/en/))*
+
 `October 2020 - May 2021`
 **University extension course:**<br/>**«The discourse on the promotion of the catalan language: perspectives and arguments»**
 <br/>
