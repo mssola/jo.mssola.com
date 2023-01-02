@@ -29,9 +29,7 @@ task :test do
     typhoeus:        {
       timeout: 120
     },
-    cache:           {
-      timeframe: '6w'
-    }
+    cache:           { timeframe: { external: '30d' } }
   }
 
   dir = ENV.fetch('BUILD_DEST', './_site')

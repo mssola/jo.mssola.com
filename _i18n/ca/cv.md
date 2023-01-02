@@ -4,7 +4,7 @@
 
 <div class="info">
     <a href="mailto:mikisabate@gmail.com"><i class="fa fa-envelope"></i> mikisabate@gmail.com</a> -
-    <a href="http://jo.mssola.com/"><i class="fa fa-home"></i> jo.mssola.com</a> -
+    <a href="http://jo.mssola.com/" data-proofer-ignore><i class="fa fa-home"></i> jo.mssola.com</a> -
     <a href="https://github.com/mssola"><i class="fa fa-github"></i> @mssola</a> -
     <a href="https://twitter.com/miquelssola"><i class="fa fa-twitter"></i> @miquelssola</a>
 </div>
@@ -38,7 +38,7 @@
 Promoció per la qual se'm va designar com a Enginyer de programari Full-Stack Sènior. Responsable de mantenir, dins de l'equip de [SCC](https://scc.suse.com), totes aquelles eines que possibiliten les interaccions entre els clients i el programari de SUSE a través de subscripcions.
 
 `Octubre 2020 - Present`
-**Conseller** al **[Consell Comarcal de l'Anoia](http://www.anoia.cat/)**<br/>
+**Conseller** al **[Consell Comarcal de l'Anoia](https://www.anoia.cat/)**<br/>
 En substitució de dues companyes que van renunciar-hi, vaig entrar conjuntament amb un altre regidor de la comarca com a conseller del Consell Comarcal de l'Anoia. Així, a l'octubre del 2020 vaig ser nomenat conseller i portaveu del grup comarcal de la CUP.
 
 `Juny 2019 - Present`

@@ -10,9 +10,9 @@ Resumidament:
   després d'una curta estància a
   [Nuremberg](https://ca.wikipedia.org/wiki/Nuremberg) vaig acabar sent adoptat
   per la bona gent de [Capellades](https://ca.wikipedia.org/wiki/Capellades).
-- Soc **Enginyer Informàtic**, o això diu un títol de la [FIB](http://www.fib.upc.edu).
+- Soc **Enginyer Informàtic**, o això diu un títol de la [FIB](https://www.fib.upc.edu).
 - També tinc un grau en **Llengua i Literatura Catalanes** per la [Universitat Oberta de
-  Catalunya](http://www.uoc.edu/portal/ca/index.html).
+  Catalunya](https://www.uoc.edu/portal/ca/index.html).
 - Milito a **Vila de Capellades - CUP**, i actualment exerceixo de **regidor**
   de Joventut, Participació ciutadana i Transparència a l'Ajuntament de
   Capellades.

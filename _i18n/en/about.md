@@ -12,10 +12,10 @@ personal website. In summary:
 - Born and raised in [Piera](https://en.wikipedia.org/wiki/Piera), after a short
   stay in [Nuremberg](https://en.wikipedia.org/wiki/Nuremberg) I ended up in
   [Capellades](https://en.wikipedia.org/wiki/Capellades).
-- The people at [FIB - Barcelona School of Informatics](http://www.fib.upc.edu/en.html)
+- The people at [FIB - Barcelona School of Informatics](https://www.fib.upc.edu/en.html)
   were nice enough to give me a **Bachelor Degree in Computer Science**.
 - I also have a **Bachelor Degree in Catalan Language and Literature** by the
-  [Universitat Oberta de Catalunya](http://www.uoc.edu/portal/en/index.html).
+  [Universitat Oberta de Catalunya](https://www.uoc.edu/portal/en/index.html).
 - I am a member of **Vila de Capellades - CUP**, and I currently also work as a **councilor** of the Capellades town hall.
 - A [Free Software](https://en.wikipedia.org/wiki/Free_software) enthusiast, developer and promoter.
 - I work at [SUSE](https://www.suse.com) remotely.

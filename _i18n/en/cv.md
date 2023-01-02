@@ -4,7 +4,7 @@
 
 <div class="info">
     <a href="mailto:mikisabate@gmail.com"><i class="fa fa-envelope"></i> mikisabate@gmail.com</a> -
-    <a href="http://jo.mssola.com/"><i class="fa fa-home"></i> jo.mssola.com</a> -
+    <a href="http://jo.mssola.com/" data-proofer-ignore><i class="fa fa-home"></i> jo.mssola.com</a> -
     <a href="https://github.com/mssola"><i class="fa fa-github"></i> @mssola</a> -
     <a href="https://twitter.com/miquelssola"><i class="fa fa-twitter"></i> @miquelssola</a>
 </div>
@@ -38,7 +38,7 @@
 Currently maintaining, inside of the [SCC](https://scc.suse.com) team, all those tools that make possible the interactions between customers and SUSE's software through subscriptions.
 
 `October 2020 - Present`
-**Councilor** at **[Consell Comarcal de l'Anoia](http://www.anoia.cat/)**<br/>
+**Councilor** at **[Consell Comarcal de l'Anoia](https://www.anoia.cat/)**<br/>
 Taking this position from representatives that left office early, in october 2020 I took the office of Councilor and spokesman of the CUP party.
 
 `June 2019 - Present`
@@ -58,7 +58,9 @@ Full-stack developer at Saifor. In there I developed a set of internal web appli
 
 `January 2011 - March 2015`
 **Developer** at **[KDE](https://kde.org/)**<br/>
-I was involved with the KDE free software project. I was mainly focused on [KDevelop](http://kdevelop.org), where I was the maintainer for its Ruby support, and [Kate](https://kate-editor.org).
+I was involved with the KDE free software project. I was mainly focused on
+[KDevelop](https://www.kdevelop.org), where I was the maintainer for its Ruby
+support, and [Kate](https://kate-editor.org).
 
 `April 2012 - August 2012`
 **Student** at **[Google Summer of Code](https://summerofcode.withgoogle.com/)**<br/>
