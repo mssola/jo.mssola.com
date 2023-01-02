@@ -19,13 +19,17 @@ require 'date'
 require_relative 'modified_time_helper'
 
 module Jekyll
-  # Render the last modification time of the given page.
+  # Render the last modification time of the given page. This plugin requires
+  # the use of the Jekyll multiple-language plugin, and a value for the
+  # 'log.unknown' key.
   class RenderModifiedAt < Liquid::Tag
     include ::Jekyll::ModifiedTimeHelper
 
     def render(context)
-      time = Time.iso8601(modified_time(context['page']))
+      mt = modified_time(context['page'])
+      return unknown(context) if mt.nil?
 
+      time = Time.iso8601(mt)
       if context['page']['lang'] == 'en'
         time.strftime('%B %-d, %Y, at %H:%m')
       else
@@ -34,6 +38,14 @@ module Jekyll
     end
 
     protected
+
+    # Returns the 'log.unknown' string.
+    def unknown(context)
+      lang = context['site']['lang']
+      ts   = context['site']['translations'][lang]
+
+      ts['log']['unknown']
+    end
 
     # Given a month number, return its catalan translation.
     # rubocop:disable Metrics/MethodLength, Metrics/CyclomaticComplexity

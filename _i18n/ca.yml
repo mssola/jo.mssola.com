@@ -1,3 +1,5 @@
+---
+
 titles:
   about: "Sobre mi"
   cv: "CV"
@@ -6,6 +8,7 @@ titles:
   license: "Llicència"
   writings: "Escrits"
   writingsu: "escrits"
+  misc: "Misc"
 
 footer:
   created_with: "Creat amb"
@@ -73,3 +76,12 @@ tags:
 
 about:
   downloadpdf: "Descarrega en format PDF"
+
+misc:
+  intro: >-
+    Aquí hi tinc coses aleatòries que se m'acudeixen. Res seriós, simplement
+    idees sense gaire importància que em ballen pel cap.
+
+log:
+  unknown:
+    'desconegut'

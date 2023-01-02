@@ -23,6 +23,8 @@
         {% t index.final %}
       {% elsif include.writings %}
         {% t writings.intro %}
+      {% elsif include.misc %}
+        {% t misc.intro %}
       {% else %}
         {% t blog.intro %}
       {% endif %}
@@ -41,11 +43,13 @@
 
   <div id="posts-list" class="row">
     {% if page.url == "/" %}
-      {% assign posts = site.posts | where:"lang",site.lang %}
+      {% assign posts = site.posts | where:"lang",site.lang| where:"blogpost",true %}
     {% elsif page.url == "/blog/" %}
       {% assign posts = site.posts | where:"lang",site.lang | where:"blogpost",true %}
+    {% elsif page.url == "/misc/" %}
+      {% assign posts = site.posts | where:"lang",site.lang | where:"misc",true %}
     {% else %}
-      {% assign posts = site.posts | where:"lang",site.lang | where:"blogpost",false %}
+      {% assign posts = site.posts | where:"lang",site.lang | where:"blogpost",false | where:"misc",false %}
     {% endif %}
 
     {% capture posts_count %}{{ posts | size }}{% endcapture %}

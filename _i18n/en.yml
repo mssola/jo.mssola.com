@@ -1,3 +1,5 @@
+---
+
 titles:
   about: "About me"
   cv: "CV"
@@ -6,6 +8,7 @@ titles:
   license: "License"
   writings: "Writings"
   writingsu: "writings"
+  misc: "Miscel·lània"
 
 footer:
   created_with: "Created with"
@@ -72,3 +75,12 @@ tags:
 
 about:
   downloadpdf: "Download in PDF format"
+
+misc:
+  intro: >-
+    I am posting here some random stuff that occurs to me. Nothing too serious,
+    just goofy stuff that I have on my mind.
+
+log:
+  unknown:
+    'unknown'
