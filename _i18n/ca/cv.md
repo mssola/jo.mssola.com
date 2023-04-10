@@ -41,9 +41,13 @@ Promoció per la qual se'm va designar com a Enginyer de programari Full-Stack S
 **Conseller** al **[Consell Comarcal de l'Anoia](https://www.anoia.cat/)**<br/>
 En substitució de dues companyes que van renunciar-hi, vaig entrar conjuntament amb un altre regidor de la comarca com a conseller del Consell Comarcal de l'Anoia. Així, a l'octubre del 2020 vaig ser nomenat conseller i portaveu del grup comarcal de la CUP.
 
-`Juny 2019 - Present`
+`Juny 2019 - Març 2023`
 **Regidor** de **Joventut**, **Participació ciutadana** i **Transparència** per l'**[Ajuntament de Capellades](https://www.capellades.cat/)**<br/>
-A les eleccions celebrades el maig de 2019 vaig ser escollit regidor de Capellades per la llista de Vila de Capellades - CUP. En la formació de l'equip de govern se'm van atorgar les regidories de Joventut, Participació ciutadana i Transparència.
+A les eleccions celebrades el maig de 2019 vaig ser escollit regidor de
+Capellades per la llista de Vila de Capellades - CUP. En la formació de l'equip
+de govern se'm van atorgar les regidories de Joventut, Participació ciutadana i
+Transparència; que posteriorment, el març de 2023, [vaig
+renunciar](http://viladecapellades.cat/noticia/309/comunicat-de-vila-de-capellades-cup-en-relacio-a-la-sortida-del-govern).
 
 `Juny 2015 - Novembre 2020`
 **Enginyer de programari** a **[SUSE](https://www.suse.com/)**

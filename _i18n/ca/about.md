@@ -1,33 +1,37 @@
-<img src="/images/me.jpeg" alt="Miquel's picture" id="image-profile" title="It's-a Me, Miquel!" width="100" height="100">
+<img src="/images/me.jpeg" alt="Miquel's picture" id="image-profile" title="Jo mateix, fa uns anys..." width="100" height="100">
 
-## Qui soc?
+<div class="info">
+    <a href="mailto:mikisabate@gmail.com"><i class="fa fa-envelope"></i> mikisabate@gmail.com</a> -
+    <a href="https://github.com/mssola"><i class="fa fa-github"></i> @mssola</a> -
+    <a href="https://twitter.com/miquelssola"><i class="fa fa-twitter"></i> @miquelssola</a> -
+    <a href="/about/cv"><i class="fa fa-address-card-o"></i> CV</a>
+</div>
 
-Hola! Em dic **Miquel Sabaté Solà** i aquesta és la meva pàgina personal.
-Resumidament:
+**Miquel Sabaté Solà** (Piera, 1989) està graduat en Enginyeria informàtica
+([FIB/UPC](https://www.fib.upc.edu/ca), 2014) i en Llengua i Literatura
+Catalanes ([UOC](https://www.uoc.edu/portal/ca/index.html), 2022). Treballa com
+a Desenvolupador de programari sènior a [SUSE](https://www.suse.com/), ha fet
+nombroses aportacions en diversos projectes de programari lliure, i ha actuat de
+mentor dins del programa [Google Summer of
+Code](https://summerofcode.withgoogle.com/) fins a dues ocasions en els
+projectes [KDE](https://kde.org/ca/) i [openSUSE](https://www.opensuse.org/).
 
-- Vaig néixer el 28 de Desembre del 1989.
-- He nascut i crescut a [Piera](https://ca.wikipedia.org/wiki/Piera) però
-  després d'una curta estància a
-  [Nuremberg](https://ca.wikipedia.org/wiki/Nuremberg) vaig acabar sent adoptat
-  per la bona gent de [Capellades](https://ca.wikipedia.org/wiki/Capellades).
-- Soc **Enginyer Informàtic**, o això diu un títol de la [FIB](https://www.fib.upc.edu).
-- També tinc un grau en **Llengua i Literatura Catalanes** per la [Universitat Oberta de
-  Catalunya](https://www.uoc.edu/portal/ca/index.html).
-- Milito a **Vila de Capellades - CUP**, i actualment exerceixo de **regidor**
-  de Joventut, Participació ciutadana i Transparència a l'Ajuntament de
-  Capellades.
-- Soc un entusiasta, desenvolupador i promotor de [Programari
-  Lliure](https://ca.wikipedia.org/wiki/Programari_lliure).
-- Treballo a [SUSE](https://www.suse.com/) des de casa.
+Actualment es troba cursant el Màster Universitari en Recerca Avançada en
+Estudis Humanístics de la [Universitat Rovira i
+Virgili](https://www.urv.cat/ca/) (2022-2023), on continua la tasca de recerca
+que va encetar amb el Treball de Final de Grau inèdit «Poesia completa de Joan
+Terrer. Estudi i edició crítica» (2022), dirigit pel Dr. Marc Sogues Marco, i
+qualificat amb Matrícula d’Honor. Les seves principals línies de recerca són
+l’edició de textos inèdits d’autors del Barroc català, així com la seva
+contextualització a nivell biogràfic i històric.
 
-Si voleu la mateixa informació en format CV, podeu accedir-hi [aquí](/about/cv.html).
-
-## On em podeu trobar?
-
-<p>
-Em podeu enviar un correu a
-<a href="mailto:mikisabate@gmail.com" title="Enviar correu">
-  <code>mikisabate@gmail.com</code></a>.
-Altrament, també em podeu trobar a <a href="https://twitter.com/miquelssola"
-title="@miquelssola">Twitter</a>.
-</p>
+A més, compagina aquesta activitat amb responsabilitats polítiques. En aquest
+sentit milita a [Vila de Capellades - CUP](http://viladecapellades.cat/) i va
+ser escollit regidor de Capellades a les Eleccions Municipals de 2019. En la
+formació de l’equip de govern se li van atorgar les regidories de Joventut,
+Participació ciutadana i Transparència; que posteriorment, el març de 2023, [va
+renunciar](http://viladecapellades.cat/noticia/309/comunicat-de-vila-de-capellades-cup-en-relacio-a-la-sortida-del-govern).
+A banda d'això, i en substitució de dues companyes que van renunciar-hi, va
+entrar conjuntament amb un altre regidor de la comarca com a conseller del
+Consell Comarcal de l’Anoia. Així, a l’octubre del 2020 va ser nomenat conseller
+i portaveu del grup comarcal de la CUP fins a finals de legislatura.

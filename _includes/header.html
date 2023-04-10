@@ -5,7 +5,11 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
     <div class="left-header header-component">
-      <a title="Home" class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      {% if site.lang == "ca" %}
+        <a title="Home" class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      {% elsif site.lang == "en" %}
+        <a title="Home" class="site-title" rel="author" href="{{ "/en" }}">{{ site.title | escape }}</a>
+      {% endif %}
     </div>
     <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
