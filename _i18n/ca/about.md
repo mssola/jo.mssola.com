@@ -4,7 +4,7 @@
     <a href="mailto:mikisabate@gmail.com"><i class="fa fa-envelope"></i> mikisabate@gmail.com</a> -
     <a href="https://github.com/mssola"><i class="fa fa-github"></i> @mssola</a> -
     <a href="https://twitter.com/miquelssola"><i class="fa fa-twitter"></i> @miquelssola</a> -
-    <a href="/about/cv"><i class="fa fa-address-card-o"></i> CV</a>
+    <a href="/about/cv.html"><i class="fa fa-address-card-o"></i> CV</a>
 </div>
 
 **Miquel Sabaté Solà** (Piera, 1989) està graduat en Enginyeria informàtica
