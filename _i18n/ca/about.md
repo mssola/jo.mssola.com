@@ -25,13 +25,15 @@ qualificat amb Matrícula d’Honor. Les seves principals línies de recerca só
 l’edició de textos inèdits d’autors del Barroc català, així com la seva
 contextualització a nivell biogràfic i històric.
 
-A més, compagina aquesta activitat amb responsabilitats polítiques. En aquest
-sentit milita a [Vila de Capellades - CUP](http://viladecapellades.cat/) i va
-ser escollit regidor de Capellades a les Eleccions Municipals de 2019. En la
-formació de l’equip de govern se li van atorgar les regidories de Joventut,
-Participació ciutadana i Transparència; que posteriorment, el març de 2023, [va
+A més, compagina aquesta activitat amb responsabilitats polítiques i milita a
+[Vila de Capellades - CUP](http://viladecapellades.cat/). Va ser escollit
+regidor de Capellades a les eleccions municipals de 2019 i en la formació de
+l’equip de govern se li van atorgar les regidories de Joventut, Participació
+ciutadana i Transparència; que posteriorment, el març de 2023, [va
 renunciar](http://viladecapellades.cat/noticia/309/comunicat-de-vila-de-capellades-cup-en-relacio-a-la-sortida-del-govern).
-A banda d'això, i en substitució de dues companyes que van renunciar-hi, va
-entrar conjuntament amb un altre regidor de la comarca com a conseller del
-Consell Comarcal de l’Anoia. Així, a l’octubre del 2020 va ser nomenat conseller
-i portaveu del grup comarcal de la CUP fins a finals de legislatura.
+A les següents eleccions municipals, el 2023, va tornar a ser escollit regidor
+de Capellades, mantenint-se aquesta vegada a l'oposició. A banda d'això, i en
+substitució de dues companyes que van renunciar-hi, va entrar conjuntament amb
+un altre regidor de la comarca com a conseller del Consell Comarcal de l’Anoia.
+Així, a l’octubre del 2020 va ser nomenat conseller i portaveu del grup comarcal
+de la CUP fins el 2023 (final de legislatura).

@@ -37,13 +37,21 @@
 **Senior Full-Stack Software Developer** at **[SUSE](https://www.suse.com/)**<br/>
 Currently maintaining, inside of the [SCC](https://scc.suse.com) team, all those tools that make possible the interactions between customers and SUSE's software through subscriptions.
 
-`October 2020 - Present`
+`October 2020 - June 2023`
 **Councilor** at **[Consell Comarcal de l'Anoia](https://www.anoia.cat/)**<br/>
-Taking this position from representatives that left office early, in october 2020 I took the office of Councilor and spokesman of the CUP party.
+Taking this position from representatives that left office early, in october
+2020 I took the office of Councilor and spokesman of the CUP party. I left
+office at the end of the term.
 
-`June 2019 - March 2023`
-**Councilor** of **Youth**, **Citizen Participation** and **Transparency** at **[Ajuntament de Capellades](https://www.capellades.cat/)**<br/>
-In the municipal elections celebrated in may 2019, I was nominated as councilor at Capellades for the Vila de Capellades - CUP party. When forming up the government of the Town Hall, I was nominated as councilor of Youth, Citizen Participation and Transparency; which I [later renounced](http://viladecapellades.cat/noticia/309/comunicat-de-vila-de-capellades-cup-en-relacio-a-la-sortida-del-govern).
+`June 2019 - Present`
+**Councilor** at **[Capellades' Town Hall](https://www.capellades.cat/)**<br/>
+In the municipal elections celebrated in may 2019, I was nominated as councilor
+at Capellades for the Vila de Capellades - CUP party. When forming up the
+government of the Town Hall, I was nominated as councilor of **Youth**,
+**Citizen Participation** and **Transparency**; which I [renounced in march 2023](http://viladecapellades.cat/noticia/309/comunicat-de-vila-de-capellades-cup-en-relacio-a-la-sortida-del-govern).
+
+In the municipal elections celebrated in may 2023 I was reelected as councilor
+at Capellades for the same party, but remaining at the opposition this time.
 
 `June 2015 - November 2020`
 **Software Developer** at **[SUSE](https://www.suse.com/)**

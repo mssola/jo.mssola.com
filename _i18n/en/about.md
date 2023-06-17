@@ -30,7 +30,8 @@ celebrated in may 2019, he was nominated as councilor at Capellades. When
 forming up the government of the Town Hall, he was nominated as councilor of
 Youth, Citizen Participation and Transparency; which he [later
 renounced](http://viladecapellades.cat/noticia/309/comunicat-de-vila-de-capellades-cup-en-relacio-a-la-sortida-del-govern)
-in march 2023. Moreover, in october 2020, he also took the position of councilor
-at the [Consell Comarcal de l'Anoia](https://www.anoia.cat/) from
-representatives that left office early, being also a spokesman there for the CUP
-party until 2023 (end of the term).
+in march 2023. On the next elections, in 2023, he was reelected as a councilor,
+but remaining at the opposition this time. Moreover, in october 2020, he also
+took the position of councilor at the [Consell Comarcal de
+l'Anoia](https://www.anoia.cat/) from representatives that left office early,
+being also a spokesman there for the CUP party until 2023 (end of the term).
