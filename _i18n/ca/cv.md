@@ -1,4 +1,4 @@
-<img src="/images/me.jpeg" alt="Miquel's picture" id="image-profile" title="Miquel Sabaté Solà" width="100" height="100">
+<img src="/images/me.jpeg" alt="Miquel's picture" id="image-profile" title="Miquel Sabaté Solà" width="100">
 
 # Miquel Sabaté Solà
 
