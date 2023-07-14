@@ -25,7 +25,7 @@ task :test do
     check_html:      true,
     check_img_http:  true,
     check_opengraph: true,
-    ignore_urls:     [/uoc.edu/, /viladecapellades.cat/],
+    ignore_urls:     [/uoc.edu/, /viladecapellades.cat/, /miquelssola/],
     typhoeus:        {
       timeout: 120
     },

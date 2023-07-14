@@ -6,7 +6,8 @@
     <a href="mailto:mikisabate@gmail.com"><i class="fa fa-envelope"></i> mikisabate@gmail.com</a> -
     <a href="http://jo.mssola.com/" data-proofer-ignore><i class="fa fa-home"></i> jo.mssola.com</a> -
     <a href="https://github.com/mssola"><i class="fa fa-github"></i> @mssola</a> -
-    <a href="https://twitter.com/miquelssola"><i class="fa fa-twitter"></i> @miquelssola</a>
+    <a href="https://twitter.com/miquelssola"><i class="fa fa-twitter"></i> @miquelssola</a> -
+    <a href="https://scholar.google.com/citations?user=7WXJc30AAAAJ"><i class="fa fa-google"></i> Scholar</a>
 </div>
 
 ## Education

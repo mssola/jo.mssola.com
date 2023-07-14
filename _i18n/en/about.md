@@ -4,6 +4,7 @@
     <a href="mailto:mikisabate@gmail.com"><i class="fa fa-envelope"></i> mikisabate@gmail.com</a> -
     <a href="https://github.com/mssola"><i class="fa fa-github"></i> @mssola</a> -
     <a href="https://twitter.com/miquelssola"><i class="fa fa-twitter"></i> @miquelssola</a> -
+    <a href="https://scholar.google.com/citations?user=7WXJc30AAAAJ"><i class="fa fa-google"></i> Scholar</a> -
     <a href="/en/about/cv.html"><i class="fa fa-address-card-o"></i> CV</a>
 </div>
 
