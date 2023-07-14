@@ -1,4 +1,4 @@
-<img src="/images/me.jpeg" alt="Miquel's picture" id="image-profile" title="This is me some years ago..." width="100" height="100">
+<img src="/images/me.jpeg" alt="Miquel's picture" id="image-profile" width="125">
 
 <div class="info">
     <a href="mailto:mikisabate@gmail.com"><i class="fa fa-envelope"></i> mikisabate@gmail.com</a> -
@@ -35,4 +35,5 @@ in march 2023. On the next elections, in 2023, he was reelected as a councilor,
 but remaining at the opposition this time. Moreover, in october 2020, he also
 took the position of councilor at the [Consell Comarcal de
 l'Anoia](https://www.anoia.cat/) from representatives that left office early,
-being also a spokesman there for the CUP party until 2023 (end of the term).
+being also a spokesman there for the CUP party until july 2023 (end of the
+term).

@@ -7,7 +7,7 @@ sentit. El codi font es pot trobar [aquí](https://github.com/mssola/jo.mssola.c
 
 <div class="org-src-container">
   <pre class="src src-txt">
-Copyright (C) 2018-2023 Miquel Sabaté Solà &lt;mikisabate@gmail.com&gt;
+Copyright (C) 2018-Ω Miquel Sabaté Solà &lt;mikisabate@gmail.com&gt;
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by

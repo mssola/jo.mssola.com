@@ -38,7 +38,7 @@
 **Senior Full-Stack Software Developer** at **[SUSE](https://www.suse.com/)**<br/>
 Currently maintaining, inside of the [SCC](https://scc.suse.com) team, all those tools that make possible the interactions between customers and SUSE's software through subscriptions.
 
-`October 2020 - June 2023`
+`October 2020 - July 2023`
 **Councilor** at **[Consell Comarcal de l'Anoia](https://www.anoia.cat/)**<br/>
 Taking this position from representatives that left office early, in october
 2020 I took the office of Councilor and spokesman of the CUP party. I left

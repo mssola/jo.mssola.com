@@ -38,7 +38,7 @@
 **Enginyer de programari Full-Stack Sènior** a **[SUSE](https://www.suse.com/)**<br/>
 Promoció per la qual se'm va designar com a Enginyer de programari Full-Stack Sènior. Responsable de mantenir, dins de l'equip de [SCC](https://scc.suse.com), totes aquelles eines que possibiliten les interaccions entre els clients i el programari de SUSE a través de subscripcions.
 
-`Octubre 2020 - Juny 2023`
+`Octubre 2020 - Juliol 2023`
 **Conseller** al **[Consell Comarcal de l'Anoia](https://www.anoia.cat/)**<br/>
 En substitució de dues companyes que van renunciar-hi, vaig entrar conjuntament amb un altre regidor de la comarca com a conseller del Consell Comarcal de l'Anoia. Així, a l'octubre del 2020 vaig ser nomenat conseller i portaveu del grup comarcal de la CUP, càrrec que vaig deixar una vegada acabada la legislatura 2019-2023.
 

@@ -1,4 +1,4 @@
-<img src="/images/me.jpeg" alt="Miquel's picture" id="image-profile" title="Jo mateix, fa uns anys..." width="100" height="100">
+<img src="/images/me.jpeg" alt="Miquel's picture" id="image-profile" width="125">
 
 <div class="info">
     <a href="mailto:mikisabate@gmail.com"><i class="fa fa-envelope"></i> mikisabate@gmail.com</a> -
@@ -37,4 +37,4 @@ de Capellades, mantenint-se aquesta vegada a l'oposició. A banda d'això, i en
 substitució de dues companyes que van renunciar-hi, va entrar conjuntament amb
 un altre regidor de la comarca com a conseller del Consell Comarcal de l’Anoia.
 Així, a l’octubre del 2020 va ser nomenat conseller i portaveu del grup comarcal
-de la CUP fins el 2023 (final de legislatura).
+de la CUP fins el juliol de 2023 (final de legislatura).
