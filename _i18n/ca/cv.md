@@ -12,7 +12,7 @@
 
 ## Educació
 
-`Octubre 2022 - Juliol 2023 (esperat)`
+`Octubre 2022 - Setembre 2023`
 **Màster en Recerca Avançada en Estudis Humanístics**<br/>**Especialitat en Estudis Lingüístics i Literaris**
 <br/>
 *Universitat Rovira i Virgili ([URV](https://www.urv.cat/ca/))*

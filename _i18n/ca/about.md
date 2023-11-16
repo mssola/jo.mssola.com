@@ -10,23 +10,21 @@
 
 **Miquel Sabaté Solà** (Piera, 1989) està graduat en Enginyeria informàtica
 ([FIB/UPC](https://www.fib.upc.edu/ca), 2014) i en Llengua i Literatura
-Catalanes ([UOC](https://www.uoc.edu/portal/ca/index.html), 2022). Treballa com
-a Desenvolupador de programari sènior a [SUSE](https://www.suse.com/), ha fet
-nombroses aportacions en diversos projectes de programari lliure, i ha actuat de
-mentor dins del programa [Google Summer of
-Code](https://summerofcode.withgoogle.com/) fins a dues ocasions en els
-projectes [KDE](https://kde.org/ca/) i [openSUSE](https://www.opensuse.org/).
+Catalanes ([UOC](https://www.uoc.edu/portal/ca/index.html), 2022), i té un
+màster en Recerca Avançada en Estudis Humanístics
+([URV](https://www.urv.cat/ca/), 2023). Treballa com a Desenvolupador de
+programari sènior a [SUSE](https://www.suse.com/), ha fet nombroses aportacions
+en diversos projectes de programari lliure, i ha actuat de mentor dins del
+programa [Google Summer of Code](https://summerofcode.withgoogle.com/) fins a
+dues ocasions en els projectes [KDE](https://kde.org/ca/) i
+[openSUSE](https://www.opensuse.org/).
 
-Actualment es troba cursant el Màster Universitari en Recerca Avançada en
-Estudis Humanístics de la [Universitat Rovira i
-Virgili](https://www.urv.cat/ca/) (2022-2023), on continua la tasca de recerca
-que va encetar amb el Treball de Final de Grau inèdit «Poesia completa de Joan
-Terrer. Estudi i edició crítica» (2022), dirigit pel Dr. Marc Sogues Marco, i
-qualificat amb Matrícula d’Honor. Les seves principals línies de recerca són
-l’edició de textos inèdits d’autors del Barroc català, així com la seva
-contextualització a nivell biogràfic i històric.
+Les seves principals línies de recerca són l’edició de textos inèdits d’autors
+del Barroc català, així com la seva contextualització a nivell biogràfic i
+històric. Un punt d'especial interès ha estat l'estudi biogràfic i literari de
+Joan Terré i Sarriera (1601-1640), autor del primer període del Barroc català.
 
-A més, compagina aquesta activitat amb responsabilitats polítiques i milita a
+A més compagina aquesta activitat amb responsabilitats polítiques i milita a
 [Vila de Capellades - CUP](http://viladecapellades.cat/). Va ser escollit
 regidor de Capellades a les eleccions municipals de 2019 i en la formació de
 l’equip de govern se li van atorgar les regidories de Joventut, Participació

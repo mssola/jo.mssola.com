@@ -12,7 +12,7 @@
 
 ## Education
 
-`October 2022 - June 2023 (expected)`
+`October 2022 - September 2023`
 **Master's Degree in Advanced Research in Humanistic Studies**<br/>**Speciality in Linguistic and Literary Studies**
 <br/>
 *Universitat Rovira i Virgili ([URV](https://www.urv.cat/en/))*
