@@ -7,7 +7,7 @@ blogpost: true
 tags: portaaporta ecologia reciclatge residus municipalisme
 ---
 
-Si em preguntessin «quin ha sigut el canvi que més t'hagi marcat durant l'últim
+Si em preguntessin «quin ha estat el canvi que més t'hagi marcat durant l'últim
 any?», segurament respondria: el *porta a porta*. Aquest canvi ha modificat com
 una comunitat sencera pensa sobre els residus que genera, i com aquests s'han de
 gestionar. No sé si hi ha gaire gent interessada en aquest tema, però si n'heu
@@ -89,7 +89,7 @@ entendre les queixes d'aquells que ja veien amb bons ulls el sistema anterior.
 
 Jo, a més, soc un cas especial, ja que just davant del meu bloc de pisos hi
 havia uns contenidors d'aquells soterrats i, més avall, hi havia contenidors
-normals i de reciclatge. He de dir que amb aquesta experiència he sigut capaç de
+normals i de reciclatge. He de dir que amb aquesta experiència he estat capaç de
 rebatre molts arguments de gent molesta amb aquest sistema. Com ara:
 
 - «Ara la via està més bruta!». Almenys al meu carrer, els contenidors —fins i
@@ -171,8 +171,8 @@ qüestió.
 
 ## Finalment, un petit incís sobre la consciència ecològica
 
-Com podreu haver detectat, aquest sistema ha sigut molt benvingut per aquella
-gent que ja reciclàvem, i ha sigut molt discutit entre aquella gent que no ho
+Com podreu haver detectat, aquest sistema ha estat molt benvingut per aquella
+gent que ja reciclàvem, i ha estat molt discutit entre aquella gent que no ho
 feia —permeteu-me la generalització, s'ha de dir que hi ha hagut més gent que no
 reciclava i que ha vist amb bons ulls aquest sistema que no em pensava.
 
