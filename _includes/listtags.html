@@ -3,9 +3,9 @@
   {% capture tag_name %}{{ tag }}{% endcapture %}
 
   {% if include.urltobeused == "" %}
-  {% assign url = page.url %}
+  {% assign url = page.url | append: "/blog" %}
   {% else %}
-  {% assign url = "/" %}
+  {% assign url = "/blog" %}
   {% endif %}
 
   {% if site.lang == "ca" %}

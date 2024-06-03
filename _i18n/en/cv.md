@@ -96,16 +96,8 @@ All in all, I am a staunch supporter of free software and I strongly believe tha
 - **Administration**: overall understanding in UNIX/Linux System administration.
 - **Methodologies**: familiar with the [SCRUM](https://www.scrum.org/) methodology, being also experienced with it in remote environments. Experienced also in the [Kanban](https://en.wikipedia.org/wiki/Kanban) methodology.
 
-## Personal skills
-
-### Languages
+## Languages
 
 - **Catalan**: Native proficiency.
 - **Spanish**: Written and spoken proficiently.
 - **English**: Written and spoken proficiently.
-
-### Miscellaneous
-
-- Team player.
-- Adaptable to new work environments and eager to learn.
-- Used to work remotely, being adaptable on the schedule and the requirements from my team.

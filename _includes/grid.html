@@ -62,9 +62,10 @@
     <div class="post-preview col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
-          {{ post.title }}{% if post.subtitle %}.<small class="post-subtitle"> {{ post.subtitle }}</small>{% endif %}
+          {{ post.title }}
         </h2>
       </a>
+      {% if post.subtitle %}<h3 class="post-subtitle-list"> {{ post.subtitle }}</h3>{% endif %}
 
       {% include postmeta.html date=post.date tags=post.tags %}
 

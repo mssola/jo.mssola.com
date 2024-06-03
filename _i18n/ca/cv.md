@@ -92,16 +92,8 @@ També he contribuït en altres projectes com [Docker](https://www.docker.com/),
 - **Administració**: coneixements avançats d'eines d'administració de UNIX/Linux.
 - **Metodologies**: familiaritzat en [SCRUM](https://www.scrum.org/), amb experiència en la seva aplicació en equips treballant en remot. Familiaritzat també amb la metodologia [Kanban](https://en.wikipedia.org/wiki/Kanban).
 
-## Habilitats personals
-
-### Llengües
+## Llengües
 
 - **Català**: parlant nadiu.
 - **Castellà**: escrit i parlat amb solvència.
 - **Anglès**: escrit i parlat amb solvència.
-
-### Altres
-
-- Treballador en equip, però capaç també de treballar autònomament.
-- M'adapto ràpidament a nous entorns de treball, amb voracitat per aprendre.
-- Acostumat a treballar en remot, sent flexible amb les necessitats del meu equip.

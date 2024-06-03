@@ -1,0 +1,86 @@
+==================================================================
+https://keybase.io/mssola
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jo.mssola.com
+  * I am mssola (https://keybase.io/mssola) on keybase.
+  * I have a public key with fingerprint 1BA5 3C7A C93D CA2A CFDF  DA97 96BE 8C6F D89D 6565
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c2ea5b81d66123d0b74235ce66fcdedaff4da1f88426a2d7292caa17a8fc79140a",
+      "fingerprint": "1ba53c7ac93dca2acfdfda9796be8c6fd89d6565",
+      "host": "keybase.io",
+      "key_id": "96be8c6fd89d6565",
+      "kid": "010174a203613f922e8bfe4ae2574f3afb8e10cf81a060d4c02ab8ea07f5aecd72b50a",
+      "uid": "e240597e0727fa835a8eb9a77d280f19",
+      "username": "mssola"
+    },
+    "merkle_root": {
+      "ctime": 1717393575,
+      "hash_meta": "61a08028ad3f868eedd8779f9d1c3a23934769a3f6c014efcdb696f2e36f5395",
+      "seqno": 25788224
+    },
+    "revoke": {
+      "sig_ids": [
+        "931d85511482195d0696d34ab9a0a40f71e1a4c5e587490358aca3b0fb824b130f"
+      ]
+    },
+    "service": {
+      "hostname": "jo.mssola.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1717393580,
+  "expire_in": 157680000,
+  "prev": "943b66a0b84ffc8a6145edb4e3be2bb7d8f6bc7006693dd2aea1331f31868433",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtk31sFEUYxlsoUgoUEAISUpFFPkpL2dnZ3Zm9YrGkUBoNR00gJlCvszsz7fZ6
+t8fdclBrhRLRVhs+ErRoLAEEaxrRRr4a2wgWIwVFhEgKRQLhQy2ESEEsjYQ6WyEx
+xv1nszPP+7zP+9uZzSMHJ6QkvvdVnXOugbHE77rNBF708qFKyXRoheSrlIJs4MXK
+KYu5gaBNJZ8kA0W2FEY0EwOq60CBVDaRqkDNYrrOLcoo4VylBHCMVUUnCkWKoViE
+AEQwt5ABVJlImRK3wyUsGonaYVfYApNo0ELEMiC1iEIsTjklBjJ0k2FL5xQbVNd0
+TRSWOjGvQoQzSYxl2Y5YEx+BgXj/o3+cWwZIJYoMdQC5oSgMm5yphCkaUjkk3MQM
+yBbHgMi6TFVLVohYIjLiGmGWGMLUBnKvGrBjiiprBmIyUhAnGGoEM9MgCFEFyxwY
+njDGomESYkIdisWcciJVZUohFg2Ws0DUcVwPreXangAggKABNaSJ8UisNBBiLhF1
+ugiDZQUTCjnWMWOUYoQMblBgQaKIEhXpBoFct2SgMkHf1A2dKwzqXIOGN32MrQw7
+kk9MibGiqCJClMWdIPO6x+wSQS0m+ZZLBgQUH4lrGgAqVoChUVk4UagSMZVMVJkj
+wABRLY1pGKmGDDVMLAJNWYBTVBNAmUtFVV6/aNy2Buy9H/UIQJmT9Q+DLMsJiVSR
+qOM6llMutkpdN+Lz0LgVEU+6mpmBRyYB0w5TcUxEQZxFY7YTFqiE8j/UsJwpsTUR
+O8oCtqfQkI5l8XhtWNw7FCo0dZ3IJlY5tzDRgaoxaqoMmkwxTUQx100LybKui+NH
+FcIIgBBwCAR0FcJ/YRSmLikRnoJdmLirokyqSqkdBJMSElMS0sZPSZq0Z+6rx587
+MevUpa76x1dryCDvXiWkDBv9eOXrpFH98x9ezx7TxQ4X1W7tK96Q276tfeHu2zNW
+3U0N0vVLX9TKckZ8cOf3SxWT82/sulaJ9rd0HJ/8x6a+HN+e5jlb4NQ/kxeNy++5
+5m89NMK+dzQ/4+11hd9cqPdNH3Sl3f9Sg/9Ey68LrzQGh7ckh+Zpl6pvrhtC1n6W
+a6fPWePvfGKT/2j2T2e2Xa+dUV3orhiaVjy1PdVpWG5v07ued9e+ZuPW+xX394X7
+O5REPON6/8NIf2YZmrJ47JZl7p4jzes6+YQH3VfLLj7T1ddZsSRwYOMsZ+NO4DYl
+xxsP9PQ1zbu8bMfMU6Ro0ivkcoZveg24tvPbU9Nzk+ua3Lk9hwuHPnX08+K2fZeT
+7n5ZVlP449KayOkVI7dPqvRN6+3rOfNRG24Jj2rLy54499jN0tW3fBFypvHWu5Wt
+83M23fn+9LPHDr/+dluvfbLt4FCa/vQNcrbOt92/efe9kr0uXvbx1YxFP3TT7RPP
+PflW+rD86r945ptbo621B0sKCianT11dZy2ccmBW+YOOjNnDWpdcaNl932r/zW6O
+F4HEte0v0Nkbz7c1fLpYv1qdkkom9ObNH/tJztkR1Quu1Pca6+9uKO9orNp87+fu
+uhtuaucvt/kS/gV/P3v/6GDBxb2hsptvNI3Xpn1YgDakpc0O7io+P2bNuJWDm4fX
+p/vwzJqov856pzKpfsHJrJbcSGNe3skdRX8D
+=PhbR
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mssola
+
+==================================================================
