@@ -20,7 +20,7 @@ jobs:
         uses: ruby/setup-ruby@v1
 
       - name: "Build site"
-        run: ./script/build.sh
+        run: bash -c scripts/build.sh
 
       - name: "Create tarball"
         run: tar czvf site.tar.gz build
