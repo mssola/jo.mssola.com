@@ -6,66 +6,24 @@ on:
   pull_request:
     branches: [main]
 
+env:
+  JO_SUBPATH: "/"
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '14.x'
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - name: "Cache JS modules"
-        uses: actions/cache@v2
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: "Cache gems"
-        uses: actions/cache@v2
-        id: gem-cache
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-
-      - name: "Install Ruby and Javascript dependencies"
-        env:
-          RAILS_ENV: "test"
-          NODE_ENV: "test"
-        run: |
-          bundle config set path 'vendor/bundle'
-          bundle install --jobs 4 --retry 3
-          yarn --force
-          yarn run webpack-single-shot
-
       - name: "Build site"
-        run: bundle exec jekyll build
-
-      - name: "Run style checks"
-        run: |
-          bundle exec rubocop
-          yarn run eslint
-
-      - name: "Run tests"
-        run: bundle exec rake
+        run: ./script/build.sh
 
       - name: "Create tarball"
-        run: tar czvf site.tar.gz _site
+        run: tar czvf site.tar.gz build
 
       - name: "Upload tarball"
         uses: appleboy/scp-action@master
@@ -90,5 +48,5 @@ jobs:
             cd tmp
             tar xzvf site.tar.gz
             rm -rf ${{ secrets.DEST }}/*
-            cp -r _site/* ${{ secrets.DEST }}/
-            rm -r _site site.tar.gz
+            cp -r build/* ${{ secrets.DEST }}/
+            rm -r build site.tar.gz

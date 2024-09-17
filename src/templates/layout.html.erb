@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title><%= META.fetch(:title, "Miquel Sabaté Solà - Pàgina d'inici") %></title>
+        <meta name="description" content="<%= META.fetch(:description, "La pàgina d'inici del meu espai web") %>">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:locale" content="<%= META.fetch(:locale, 'ca_ES') %>" />
+        <meta property="og:locale:alternate" content="<%= META.fetch(:localte_alternate, 'en_US') %>" />
+        <meta property="og:url" content="http://jo.mssola.com/" />
+
+        <meta property="og:title" content="<%= META.fetch(:title, "Miquel Sabaté Solà - Pàgina d'inici") %>" />
+        <meta property="og:description" content="<%= META.fetch(:description, "La pàgina d'inici del meu espai web") %>" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@miquelssola" />
+        <meta name="twitter:creator" content="@miquelssola" />
+        <meta name="twitter:description" content="<%= META.fetch(:description, "La pàgina d'inici del meu espai web") %>" />
+        <meta name="twitter:title" content="<%= META.fetch(:title, "Miquel Sabaté Solà - Pàgina d'inici") %>" />
+        <meta property="og:image" content="http://jo.mssola.com/images/default.png" /><meta property="og:image:width" content="630" /><meta property="og:image:height" content="315" /><meta name="twitter:image" content="http://jo.mssola.com/images/default.png" />
+
+        <link rel="stylesheet" type="text/css" href="<%= url_for('stylesheets/vendor/simple.min.css') %>">
+        <link rel="stylesheet" type="text/css" href="<%= url_for('stylesheets/site.css') %>">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <% if current_lang == 'ca' %>
+                    <div id="site-title">
+                        <a href="<%= url_for('index.html') %>" title="<%= META.fetch(:home, 'Inici') %>">Miquel Sabaté Solà</a>
+                    </div>
+                    <div id="change-lang">
+                        <% if english_available? %>
+                            <a href="<%= url_set('en') %>" title="Change site's language to english">English</a>
+                        <% end %>
+                    </div>
+                <% else %>
+                    <div id="site-title">
+                        <a href="<%= url_for('en/index.html') %>" title="<%= META.fetch(:home, 'Inici') %>">Miquel Sabaté Solà</a>
+                    </div>
+                    <div id="change-lang">
+                        <a href="<%= url_set('ca') %>" title="Change site's language to catalan">Català</a>
+                    </div>
+                <% end %>
+            </nav>
+        </header>
+
+        <% if main_class.nil? %>
+            <main>
+        <% else %>
+            <main class="<%= main_class %>">
+        <% end %>
+            <%= inner_html %>
+        </main>
+
+        <footer>
+            <% if current_lang == 'ca' %>
+                Aquesta pàgina és Programari Lliure i està sota la llicència <a href="<%= url_for('license.html') %>">AGPLv3</a> (<a href="https://github.com/mssola/jo.mssola.com">codi font</a>).
+            <% else %>
+                This site is free software and it's under the <a href="<%= url_for('en/license.html') %>">AGPLv3</a> license (<a href="https://github.com/mssola/jo.mssola.com">source code</a>).
+            <% end %>
+        </footer>
+    </body>
+</html>
