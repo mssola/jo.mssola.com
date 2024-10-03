@@ -151,6 +151,11 @@ h1, h3 {
     font-weight: normal;
 }
 
+hr {
+    margin: 3em auto;
+    width: 15%;
+}
+
 /* My picture should be floaty. */
 #image-profile {
     display: block;
