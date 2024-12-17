@@ -38,7 +38,7 @@ body header {
 
     nav {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1.5fr auto;
         grid-column: 2;
         padding: 0px;
 
